@@ -1,6 +1,7 @@
 import numpy as np
 import pandas as pd
 import seaborn as sns
+import statsmodels.api as sm
 import matplotlib.pyplot as plt
 from os import listdir
 from itertools import permutations
@@ -33,9 +34,19 @@ for pair in permutations(countries, 2):
             costs.append(np.log(transport_cost))
             trade_vals.append(np.log(trade_val))
 
+# RUN REGRESSION
+X = sm.add_constant(costs)
+y = trade_vals
+model = sm.OLS(y, X).fit()
+
 fig, ax = plt.subplots(figsize=(8, 6))
 sns.regplot(costs, trade_vals, scatter_kws={'alpha':0.3})
-ax.set_xlabel(r'$\ln(\tau)$')
+
+ax.text(0.20, 25, s='Slope: {:.2f} ({:.2f}), R-squared fit = {:.2f}'.format(model.params[1],
+                                                                            model.bse[1], 
+                                                                            model.rsquared))
+
+ax.set_xlabel(r'$\ln(\tau^{\theta})$, $\theta=5.03$')
 ax.set_ylabel(r'$\ln(trade)$')
 
 plt.tight_layout()
