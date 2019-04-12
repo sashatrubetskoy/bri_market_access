@@ -1,0 +1,218 @@
+countryname,iso3,region,regioncode,year,Incomegroup,tariff_weighted,tariff_unweighted,border_export_rd,border_import_rd,gdp_pcap_rd
+Aruba,ABW,Latin America & Caribbean (all income levels),LCN,2015,High income,0.1002,0.09770000699999999,,,26109.299
+Afghanistan,AFG,South Asia,SAS,2015,Low income,0.070199996,0.0647,881.4885300000001,1804.2162,587.22388
+Angola,AGO,Sub-Saharan Africa (all income levels),SSF,2015,Lower middle income,0.1024,0.10439999,1097.9945,1536.1613,3797.6716
+Albania,ALB,Europe & Central Asia (all income levels),ECS,2015,Upper middle income,0.0111,0.0124,41.239227,63.920803,4075.2922
+Andorra,AND,Europe & Central Asia (all income levels),ECS,2015,High income,,,,,37154.762
+United Arab Emirates,ARE,Middle East & North Africa (all income levels),MEA,2015,High income,0.029899999,0.0403,659.8276400000001,990.7724599999999,40334.078
+Argentina,ARG,Latin America & Caribbean (all income levels),LCN,2015,Upper middle income,0.0735,0.1248,216.50595,1360.8945,14122.676000000001
+Armenia,ARM,Europe & Central Asia (all income levels),ECS,2015,Lower middle income,0.029300001000000003,0.063600004,257.74518,206.19613999999999,3730.022
+American Samoa,ASM,East Asia & Pacific (all income levels),EAS,2015,Upper middle income,,,,,12233.579
+Antigua and Barbuda,ATG,Latin America & Caribbean (all income levels),LCN,2015,High income,0.12029999,0.1238,687.66412,699.00494,14082.317
+Australia,AUS,East Asia & Pacific (all income levels),EAS,2015,High income,0.018999999,0.025,1044.3834,644.36292,58313.727
+Austria,AUT,Europe & Central Asia (all income levels),ECS,2015,High income,0.0189,0.026099999,0.0,0.0,45576.344000000005
+Azerbaijan,AZE,Europe & Central Asia (all income levels),ECS,2015,Upper middle income,0.051899999,0.08520000400000001,529.92407,642.3009599999999,5670.7139
+Burundi,BDI,Sub-Saharan Africa (all income levels),SSF,2015,Low income,0.061300002,0.1042,294.86047,1514.5106,309.99172999999996
+Belgium,BEL,Europe & Central Asia (all income levels),ECS,2015,High income,0.0189,0.026099999,0.0,0.0,41611.57
+Benin,BEN,Sub-Saharan Africa (all income levels),SSF,2015,Low income,0.17219999,0.1322,486.62289000000004,1142.3267,808.25079
+Burkina Faso,BFA,Sub-Saharan Africa (all income levels),SSF,2015,Low income,0.095899999,0.122,357.75031,476.31307999999996,593.1381200000001
+Bangladesh,BGD,South Asia,SAS,2015,Lower middle income,0.1182,0.1197,652.8170200000001,1715.3457,1247.6504
+Bulgaria,BGR,Europe & Central Asia (all income levels),ECS,2015,Upper middle income,0.0189,0.026099999,107.22198999999999,0.0,7210.1382
+Bahrain,BHR,Middle East & North Africa (all income levels),MEA,2015,High income,0.033,0.0359,151.55417,543.3268400000001,23391.797000000002
+"Bahamas, The",BHS,Latin America & Caribbean (all income levels),LCN,2015,High income,0.1866,0.28079998,1094.9015,1994.9476,31428.23
+Bosnia and Herzegovina,BIH,Europe & Central Asia (all income levels),ECS,2015,Upper middle income,0.012200001,0.024900001,204.13419,212.38202,4726.2656
+Belarus,BLR,Europe & Central Asia (all income levels),ECS,2015,Upper middle income,0.0197,0.060199998,255.68321,0.0,6133.4141
+Belize,BLZ,Latin America & Caribbean (all income levels),LCN,2015,Upper middle income,0.1004,0.11399999,760.86377,786.6383099999999,5103.6182
+Bermuda,BMU,North America,NAC,2015,High income,0.1867,0.18700001,,,88404.602
+Bolivia,BOL,Latin America & Caribbean (all income levels),LCN,2015,Lower middle income,0.047499999,0.1005,92.788261,355.68835,3172.3545
+Brazil,BRA,Latin America & Caribbean (all income levels),LCN,2015,Upper middle income,0.082700007,0.1366,1221.8152,1109.8507,9021.3105
+Barbados,BRB,Latin America & Caribbean (all income levels),LCN,2015,High income,0.14210001,0.12550001,473.22015,1784.6276,16628.738
+Brunei Darussalam,BRN,East Asia & Pacific (all income levels),EAS,2015,High income,0.0046000001,0.012,443.32172,458.78641,31927.297000000002
+Bhutan,BTN,South Asia,SAS,2015,Lower middle income,0.028199999,0.12180001,112.3769,164.95691000000002,2696.3345
+Botswana,BWA,Sub-Saharan Africa (all income levels),SSF,2015,Upper middle income,0.0055999998,0.076099999,511.36642,170.11182,6729.7354
+Central African Republic,CAF,Sub-Saharan Africa (all income levels),SSF,2015,Low income,0.1388,0.1728,350.53345,730.96533,359.17453
+Canada,CAN,North America,NAC,2015,High income,0.0165,0.031400002999999996,333.00677,345.37854,44873.816
+Switzerland,CHE,Europe & Central Asia (all income levels),ECS,2015,High income,0.012999999,0.036699999,284.55069,284.55069,84556.93800000001
+Channel Islands,CHI,Europe & Central Asia (all income levels),ECS,2015,High income,,,,,75848.891
+Chile,CHL,Latin America & Caribbean (all income levels),LCN,2015,High income,0.0063999998,0.0117,350.53345,350.53345,14162.206
+China,CHN,East Asia & Pacific (all income levels),EAS,2015,Upper middle income,0.045200001,0.078200005,586.31873,944.27527,8319.2031
+Cote d'Ivoire,CIV,Sub-Saharan Africa (all income levels),SSF,2015,Lower middle income,0.081599995,0.1309,539.2028799999999,745.39905,1478.7631
+Cameroon,CMR,Sub-Saharan Africa (all income levels),SSF,2015,Lower middle income,0.127,0.1891,1328.9341,2325.8926,1395.87
+"Congo, Dem. Rep.",COD,Sub-Saharan Africa (all income levels),SSF,2015,Low income,0.1019,0.1165,4869.3218,4035.2585,513.04669
+"Congo, Rep.",COG,Sub-Saharan Africa (all income levels),SSF,2015,Lower middle income,0.1155,0.12909999,2206.2988,1949.5845,1765.1638
+Colombia,COL,Latin America & Caribbean (all income levels),LCN,2015,Upper middle income,0.065399997,0.050000000999999995,654.67273,613.43353,6231.7891
+Comoros,COM,Sub-Saharan Africa (all income levels),SSF,2015,Low income,0.0504,0.12,799.01007,884.58142,750.1893299999999
+Cabo Verde,CPV,Sub-Saharan Africa (all income levels),SSF,2015,Lower middle income,0.1089,0.14819999,933.03754,735.0892299999999,3087.9426
+Costa Rica,CRI,Latin America & Caribbean (all income levels),LCN,2015,Upper middle income,0.0173,0.041900001,440.22875999999997,489.71582,11745.988000000001
+Cuba,CUB,Latin America & Caribbean (all income levels),LCN,2015,Upper middle income,0.0766,0.098500006,,,7837.7847
+Curacao,CUW,Latin America & Caribbean (all income levels),LCN,2015,High income,,,,,
+Cayman Islands,CYM,Latin America & Caribbean (all income levels),LCN,2015,High income,,,,,
+Cyprus,CYP,Europe & Central Asia (all income levels),ECS,2015,High income,0.0189,0.026099999,360.84326,396.92758,23931.355
+Czech Republic,CZE,Europe & Central Asia (all income levels),ECS,2015,High income,0.0189,0.026099999,0.0,0.0,18264.459
+Germany,DEU,Europe & Central Asia (all income levels),ECS,2015,High income,0.0189,0.026099999,402.08249,0.0,42604.168
+Djibouti,DJI,Middle East & North Africa (all income levels),MEA,2015,Lower middle income,0.17559999,0.1892,1071.1889999999999,1349.5537,1816.1860000000001
+Dominica,DMA,Latin America & Caribbean (all income levels),LCN,2015,Upper middle income,0.1372,0.13869999,695.9119900000001,985.61755,7540.438
+Denmark,DNK,Europe & Central Asia (all income levels),ECS,2015,High income,0.0189,0.026099999,0.0,0.0,54655.375
+Dominican Republic,DOM,Latin America & Caribbean (all income levels),LCN,2015,Upper middle income,0.060399997999999996,0.079300001,518.58331,638.17706,6737.3647
+Algeria,DZA,Middle East & North Africa (all income levels),MEA,2015,Upper middle income,0.082700007,0.1226,996.95831,892.82928,4289.1069
+Ecuador,ECU,Latin America & Caribbean (all income levels),LCN,2015,Upper middle income,0.0638,0.105,721.68652,335.06872999999996,6340.6919
+Egypt,EGY,Middle East & North Africa (all income levels),MEA,2015,Lower middle income,0.070799999,0.075199999,369.09109,1241.3008,3657.6235
+Eritrea,ERI,Sub-Saharan Africa (all income levels),SSF,2015,Low income,,,-2.0619614,-2.0619614,600.83032
+Spain,ESP,Europe & Central Asia (all income levels),ECS,2015,High income,0.0189,0.026099999,0.0,0.0,26588.496
+Estonia,EST,Europe & Central Asia (all income levels),ECS,2015,High income,0.0189,0.026099999,0.0,0.0,17687.377
+Ethiopia,ETH,Sub-Saharan Africa (all income levels),SSF,2015,Low income,0.12140001,0.17870001,357.75031,1534.0992,665.4619799999999
+Finland,FIN,Europe & Central Asia (all income levels),ECS,2015,High income,0.0189,0.026099999,291.76755,0.0,43738.555
+Fiji,FJI,East Asia & Pacific (all income levels),EAS,2015,Upper middle income,0.1112,0.1196,405.17542000000003,389.71069,5040.9404
+France,FRA,Europe & Central Asia (all income levels),ECS,2015,High income,0.0189,0.026099999,0.0,0.0,37747.684
+Faroe Islands,FRO,Europe & Central Asia (all income levels),ECS,2015,High income,,,,,52149.035
+"Micronesia, Fed. Sts.",FSM,East Asia & Pacific (all income levels),EAS,2015,Lower middle income,,,235.0636,268.05499,3111.5088
+Gabon,GAB,Sub-Saharan Africa (all income levels),SSF,2015,Upper middle income,0.1454,0.17799999,1755.7601,1363.9874,7679.5171
+United Kingdom,GBR,Europe & Central Asia (all income levels),ECS,2015,High income,0.0189,0.026099999,314.44912999999997,0.0,45678.172
+Georgia,GEO,Europe & Central Asia (all income levels),ECS,2015,Lower middle income,0.003,0.0043000001000000005,430.94992,603.12372,3881.2722
+Ghana,GHA,Sub-Saharan Africa (all income levels),SSF,2015,Lower middle income,0.09960000199999999,0.1249,664.9825400000001,1058.8171,1395.6223
+Gibraltar,GIB,,,2015,High income,,,,,
+Guinea,GIN,Sub-Saharan Africa (all income levels),SSF,2015,Low income,0.1191,0.13520001,934.06854,1122.738,755.25665
+"Gambia, The",GMB,Sub-Saharan Africa (all income levels),SSF,2015,Low income,0.1266,0.156,529.92407,492.80877999999996,473.18982
+Guinea-Bissau,GNB,Sub-Saharan Africa (all income levels),SSF,2015,Low income,0.098999999,0.1339,768.0806299999999,778.39044,610.14075
+Equatorial Guinea,GNQ,Sub-Saharan Africa (all income levels),SSF,2015,Upper middle income,0.15630001,0.1865,871.1787099999999,1087.6847,11560.876
+Greece,GRC,Europe & Central Asia (all income levels),ECS,2015,High income,0.0189,0.026099999,340.22362999999996,0.0,18630.623
+Grenada,GRD,Latin America & Caribbean (all income levels),LCN,2015,Upper middle income,0.1192,0.11229999,1107.2733,1850.6104,9622.4219
+Greenland,GRL,Europe & Central Asia (all income levels),ECS,2015,High income,,,,,46303.68
+Guatemala,GTM,Latin America & Caribbean (all income levels),LCN,2015,Lower middle income,0.0139,0.033299997000000005,427.85699000000005,561.88446,4045.1284
+Guam,GUM,East Asia & Pacific (all income levels),EAS,2015,High income,,,,,36301.645
+Guyana,GUY,Latin America & Caribbean (all income levels),LCN,2015,Upper middle income,0.067299999,0.09819999300000001,470.1272,338.16168,4247.3066
+"Hong Kong SAR, China",HKG,East Asia & Pacific (all income levels),EAS,2015,High income,0.0,0.0,58.7659,333.00677,43746.457
+Honduras,HND,Latin America & Caribbean (all income levels),LCN,2015,Lower middle income,0.027899998999999998,0.043200000999999995,694.88098,561.88446,2413.8098
+Croatia,HRV,Europe & Central Asia (all income levels),ECS,2015,Upper middle income,0.0189,0.026099999,0.0,0.0,12122.157
+Haiti,HTI,Latin America & Caribbean (all income levels),LCN,2015,Low income,0.065499999,0.059699997000000005,428.88797,755.70886,839.78162
+Hungary,HUN,Europe & Central Asia (all income levels),ECS,2015,High income,0.0189,0.026099999,0.0,0.0,12870.625
+Indonesia,IDN,East Asia & Pacific (all income levels),EAS,2015,Lower middle income,0.023699999,0.0537,436.82654,563.94647,3437.8557
+Isle of Man,IMN,Europe & Central Asia (all income levels),ECS,2015,High income,,,,,84202.281
+India,IND,South Asia,SAS,2015,Lower middle income,0.073200002,0.09749999599999999,530.7488400000001,740.96582,1655.7946
+Ireland,IRL,Europe & Central Asia (all income levels),ECS,2015,High income,0.0189,0.026099999,391.77267,338.16168,63722.515999999996
+Iran,IRN,Middle East & North Africa (all income levels),MEA,2015,Upper middle income,0.1523,0.20919999,729.9343299999999,883.5504800000001,5012.9375
+Iraq,IRQ,Middle East & North Africa (all income levels),MEA,2015,Upper middle income,,,3008.4016,1179.4419,5128.1255
+Iceland,ISL,Europe & Central Asia (all income levels),ECS,2015,High income,0.014199999,0.0222,716.53162,675.2923599999999,52800.297
+Israel,ISR,Middle East & North Africa (all income levels),MEA,2015,High income,0.028299998,0.0403,229.90868999999998,388.67972000000003,36796.695
+Italy,ITA,Europe & Central Asia (all income levels),ECS,2015,High income,0.0189,0.026099999,0.0,0.0,31115.33
+Jamaica,JAM,Latin America & Caribbean (all income levels),LCN,2015,Upper middle income,0.10520001,0.096999995,995.9273699999999,1026.8568,5092.877
+Jordan,JOR,Middle East & North Africa (all income levels),MEA,2015,Lower middle income,0.039799998999999996,0.058699999,151.55417,217.53692999999998,4222.999
+Japan,JPN,East Asia & Pacific (all income levels),EAS,2015,High income,0.023,0.0352,328.77975,418.78436,35638.68
+Kazakhstan,KAZ,Europe & Central Asia (all income levels),ECS,2015,Upper middle income,0.048499997999999996,0.0691,1035.1046,0.0,10836.402
+Kenya,KEN,Sub-Saharan Africa (all income levels),SSF,2015,Lower middle income,0.1147,0.1196,344.34756,977.36969,1397.026
+Kyrgyzstan,KGZ,Europe & Central Asia (all income levels),ECS,2015,Lower middle income,0.032000002,0.055300000999999994,695.9119900000001,734.05829,1155.8148
+Cambodia,KHM,East Asia & Pacific (all income levels),EAS,2015,Lower middle income,0.048499997999999996,0.080399998,489.71582,371.15305,1199.2263
+Kiribati,KIR,East Asia & Pacific (all income levels),EAS,2015,Lower middle income,,,752.61591,829.93945,1551.3328
+St. Kitts and Nevis,KNA,Latin America & Caribbean (all income levels),LCN,2015,High income,0.1229,0.1166,448.47659000000004,413.42325,16679.4
+"Korea, Rep.",KOR,East Asia & Pacific (all income levels),EAS,2015,High income,0.0572,0.060500003,202.07222,352.5954,27944.811
+Kuwait,KWT,Middle East & North Africa (all income levels),MEA,2015,High income,0.0296,0.038599997999999996,817.5676900000001,848.4971300000001,30010.889
+Laos,LAO,East Asia & Pacific (all income levels),EAS,2015,Lower middle income,0.1419,0.080899999,317.54205,276.30283,2226.334
+Lebanon,LBN,Middle East & North Africa (all income levels),MEA,2015,Upper middle income,0.0339,0.058600001,525.80017,855.7139900000001,8714.3057
+Liberia,LBR,Sub-Saharan Africa (all income levels),SSF,2015,Low income,0.12180001,0.09669999800000001,1302.1287,1276.3541,466.04254000000003
+Libya,LBY,Middle East & North Africa (all income levels),MEA,2015,Upper middle income,,,644.36292,718.59357,4840.7358
+St. Lucia,LCA,Latin America & Caribbean (all income levels),LCN,2015,Upper middle income,0.078400001,0.081599995,805.19592,969.12189,9594.6758
+Liechtenstein,LIE,Europe & Central Asia (all income levels),ECS,2015,High income,,,,,173355.3
+Sri Lanka,LKA,South Asia,SAS,2015,Lower middle income,0.044299997,0.078699999,437.13583,601.06177,3961.1968
+Lesotho,LSO,Sub-Saharan Africa (all income levels),SSF,2015,Lower middle income,0.027899998999999998,0.035999998,247.43536,247.43536,1188.0164
+Lithuania,LTU,Europe & Central Asia (all income levels),ECS,2015,High income,0.0189,0.026099999,88.664337,0.0,14731.808
+Luxembourg,LUX,Europe & Central Asia (all income levels),ECS,2015,High income,0.0189,0.026099999,0.0,0.0,104589.68
+Latvia,LVA,Europe & Central Asia (all income levels),ECS,2015,High income,0.0189,0.026099999,190.73143000000002,0.0,14062.261999999999
+"Macao SAR, China",MAC,East Asia & Pacific (all income levels),EAS,2015,High income,0.0,0.0,,,77822.844
+St. Martin (French part),MAF,Latin America & Caribbean (all income levels),LCN,2015,High income,,,,,
+Morocco,MAR,Middle East & North Africa (all income levels),MEA,2015,Lower middle income,0.027899998999999998,0.0254,271.14792,354.65735,2935.4966
+Monaco,MCO,Europe & Central Asia (all income levels),ECS,2015,High income,,,,,167029.06
+Moldova,MDA,Europe & Central Asia (all income levels),ECS,2015,Lower middle income,0.0339,0.054099999,123.71768,127.84161,1889.2711
+Madagascar,MDG,Sub-Saharan Africa (all income levels),SSF,2015,Low income,0.09350000300000001,0.1094,1015.5160000000001,768.0806299999999,414.54528999999997
+Maldives,MDV,South Asia,SAS,2015,Upper middle income,0.1113,0.1158,923.7587300000001,1196.9686,9872.4346
+Mexico,MEX,Latin America & Caribbean (all income levels),LCN,2015,Upper middle income,0.044499997,0.060700002999999995,474.25113,567.03937,9578.5947
+Marshall Islands,MHL,East Asia & Pacific (all income levels),EAS,2015,Upper middle income,,,247.43536,271.14792,3495.9631
+"Macedonia, FYR",MKD,Europe & Central Asia (all income levels),ECS,2015,Upper middle income,0.0121,0.029999999,152.58514,206.19613999999999,4983.9019
+Mali,MLI,Sub-Saharan Africa (all income levels),SSF,2015,Low income,0.0647,0.12149999,283.51968,654.67273,773.1841400000001
+Malta,MLT,Middle East & North Africa (all income levels),MEA,2015,High income,0.0189,0.026099999,360.84326,237.12556,24495.102000000003
+Myanmar,MMR,East Asia & Pacific (all income levels),EAS,2015,Lower middle income,0.045600000999999994,0.042100001,589.72095,496.93271,1174.2791
+Montenegro,MNE,Europe & Central Asia (all income levels),ECS,2015,Upper middle income,0.026300002000000003,0.0241,231.97066,418.57816,6716.0894
+Mongolia,MNG,East Asia & Pacific (all income levels),EAS,2015,Lower middle income,0.045700002,0.0493,262.90009,302.07736,4069.2419
+Northern Mariana Islands,MNP,East Asia & Pacific (all income levels),EAS,2015,High income,,,,,17547.887
+Mozambique,MOZ,Sub-Saharan Africa (all income levels),SSF,2015,Low income,0.041700002,0.074499995,847.46613,541.26489,544.68005
+Mauritania,MRT,Sub-Saharan Africa (all income levels),SSF,2015,Lower middle income,0.0867,0.1238,867.05475,1012.423,1194.1399
+Mauritius,MUS,Sub-Saharan Africa (all income levels),SSF,2015,Upper middle income,0.0068000001,0.0176,444.35269000000005,554.6676,9547.3428
+Malawi,MWI,Sub-Saharan Africa (all income levels),SSF,2015,Low income,0.042399999,0.090500005,603.12372,314.44912999999997,373.89291000000003
+Malaysia,MYS,East Asia & Pacific (all income levels),EAS,2015,Upper middle income,0.0128,0.0337,377.33893,392.80365,9947.4727
+Namibia,NAM,Sub-Saharan Africa (all income levels),SSF,2015,Upper middle income,0.0089999996,0.068899997,1126.8619,214.44397999999998,5002.4136
+New Caledonia,NCL,East Asia & Pacific (all income levels),EAS,2015,High income,,,,,
+Niger,NER,Sub-Saharan Africa (all income levels),SSF,2015,Low income,0.1177,0.1278,600.03076,1256.7655,375.73444
+Nigeria,NGA,Sub-Saharan Africa (all income levels),SSF,2015,Lower middle income,0.08220000599999999,0.11270001,1067.7866,1691.9425,2737.4167
+Nicaragua,NIC,Latin America & Caribbean (all income levels),LCN,2015,Lower middle income,0.02,0.037300002,130.93456,428.88797,2137.7366
+Netherlands,NLD,Europe & Central Asia (all income levels),ECS,2015,High income,0.0189,0.026099999,0.0,0.0,46132.609000000004
+Norway,NOR,Europe & Central Asia (all income levels),ECS,2015,High income,0.0352,0.0394,128.87259,128.87259,76806.148
+Nepal,NPL,South Asia,SAS,2015,Low income,0.12310001,0.12630001,384.55582000000004,243.31145,770.30804
+Nauru,NRU,,,2015,Upper middle income,,,,,8302.3721
+New Zealand,NZL,East Asia & Pacific (all income levels),EAS,2015,High income,0.013200001000000001,0.0217,416.5162,460.84839000000005,39846.766
+Oman,OMN,Middle East & North Africa (all income levels),MEA,2015,High income,0.018999999,0.035300002000000004,340.22362999999996,492.80877999999996,16915.002
+Pakistan,PAK,South Asia,SAS,2015,Lower middle income,0.095799997,0.12729999,756.22437,1796.7932,1472.8978
+Panama,PAN,Latin America & Caribbean (all income levels),LCN,2015,Upper middle income,0.054099999,0.07369999599999999,340.22362999999996,556.72955,14108.075
+Peru,PER,Latin America & Caribbean (all income levels),LCN,2015,Upper middle income,0.017999999,0.028099999,525.80017,683.54022,6240.6421
+Philippines,PHL,East Asia & Pacific (all income levels),EAS,2015,Lower middle income,0.0231,0.040599998,524.76917,649.51782,2967.5112
+Palau,PLW,East Asia & Pacific (all income levels),EAS,2015,High income,0.076899998,0.050700000999999995,623.74335,726.84137,14194.044
+Papua New Guinea,PNG,East Asia & Pacific (all income levels),EAS,2015,Lower middle income,0.025899999,0.047199998,757.77081,902.1080900000001,2686.6802
+Poland,POL,Europe & Central Asia (all income levels),ECS,2015,High income,0.0189,0.026099999,0.0,0.0,12955.802
+Puerto Rico,PRI,Latin America & Caribbean (all income levels),LCN,2015,High income,,,475.2821,475.2821,30617.201
+"Korea, Dem. People’s Rep.",PRK,East Asia & Pacific (all income levels),EAS,2015,Low income,,,,,
+Portugal,PRT,Europe & Central Asia (all income levels),ECS,2015,High income,0.0189,0.026099999,0.0,0.0,19849.096
+Paraguay,PRY,Latin America & Caribbean (all income levels),LCN,2015,Upper middle income,0.044299997,0.081,963.96698,654.67273,4236.6787
+West Bank and Gaza,PSE,Middle East & North Africa (all income levels),MEA,2015,Lower middle income,,,135.05847,139.18239,2954.5898
+French Polynesia,PYF,East Asia & Pacific (all income levels),EAS,2015,High income,0.050799999000000005,0.07530000099999999,,,
+Qatar,QAT,Middle East & North Africa (all income levels),MEA,2015,High income,0.0337,0.036800001,548.48175,874.27167,68401.984
+Romania,ROU,Europe & Central Asia (all income levels),ECS,2015,Upper middle income,0.0189,0.026099999,0.0,0.0,9256.5469
+Russia,RUS,Europe & Central Asia (all income levels),ECS,2015,Upper middle income,0.0308,0.053300001,883.5504800000001,793.85516,9636.1807
+Rwanda,RWA,Sub-Saharan Africa (all income levels),SSF,2015,Low income,0.09749999599999999,0.1118,302.07736,671.16846,733.82526
+Saudi Arabia,SAU,Middle East & North Africa (all income levels),MEA,2015,High income,0.044499997,0.050799999000000005,482.49895999999995,1205.2164,21375.18
+Sudan,SDN,Sub-Saharan Africa (all income levels),SSF,2015,Lower middle income,0.1195,0.12560001,1420.6914,1559.8738,2591.7666
+Senegal,SEN,Sub-Saharan Africa (all income levels),SSF,2015,Low income,0.1164,0.12989999,662.9205900000001,1285.6329,938.9912099999999
+Singapore,SGP,East Asia & Pacific (all income levels),EAS,2015,High income,0.00069999998,0.0020000001,383.52481,268.05499,56642.965
+Solomon Islands,SLB,East Asia & Pacific (all income levels),EAS,2015,Lower middle income,0.35650003,0.1072,914.4798599999999,984.58655,2026.3121
+Sierra Leone,SLE,Sub-Saharan Africa (all income levels),SSF,2015,Low income,0.1031,0.1288,803.13397,1245.4247,600.99597
+El Salvador,SLV,Latin America & Caribbean (all income levels),LCN,2015,Lower middle income,0.017899999,0.0383,183.51457,201.04124,3783.5745
+San Marino,SMR,Europe & Central Asia (all income levels),ECS,2015,High income,,,0.0,154.64711,49086.008
+Somalia,SOM,Sub-Saharan Africa (all income levels),SSF,2015,Low income,,,871.1787099999999,1290.7878,491.5672
+Serbia,SRB,Europe & Central Asia (all income levels),ECS,2015,Upper middle income,0.012200001,0.024900001,84.540421,89.69532,5399.5093
+South Sudan,SSD,Sub-Saharan Africa (all income levels),SSF,2015,Low income,,,986.64856,1166.0392,946.3593099999999
+Sao Tome and Principe,STP,Sub-Saharan Africa (all income levels),SSF,2015,Lower middle income,0.090700001,0.098500006,639.20801,495.90173,1663.467
+Suriname,SUR,Latin America & Caribbean (all income levels),LCN,2015,Upper middle income,0.076099999,0.1084,400.02051,561.88446,8995.0215
+Slovakia,SVK,Europe & Central Asia (all income levels),ECS,2015,High income,0.0189,0.026099999,0.0,0.0,16632.668
+Slovenia,SVN,Europe & Central Asia (all income levels),ECS,2015,High income,0.0189,0.026099999,0.0,0.0,21519.826
+Sweden,SWE,Europe & Central Asia (all income levels),ECS,2015,High income,0.0189,0.026099999,97.943169,0.0,52386.390999999996
+Swaziland,SWZ,Sub-Saharan Africa (all income levels),SSF,2015,Lower middle income,0.0098999999,0.046799999,216.50595,216.50595,3142.3743
+Sint Maarten (Dutch part),SXM,Latin America & Caribbean (all income levels),LCN,2015,High income,,,,,
+Seychelles,SYC,Sub-Saharan Africa (all income levels),SSF,2015,High income,0.028199999,0.0239,460.84839000000005,447.44562,15181.296
+Syrian Arab Republic,SYR,Middle East & North Africa (all income levels),MEA,2015,Lower middle income,0.1418,0.1516,1894.9425,1618.6396,2121.7944
+Turks and Caicos Islands,TCA,Latin America & Caribbean (all income levels),LCN,2015,High income,,,,,
+Chad,TCD,Sub-Saharan Africa (all income levels),SSF,2015,Low income,0.1392,0.17040001,522.7072099999999,1205.2164,808.46649
+Togo,TGO,Sub-Saharan Africa (all income levels),SSF,2015,Low income,0.1141,0.1294,193.82437,890.7673300000001,568.2257099999999
+Thailand,THA,East Asia & Pacific (all income levels),EAS,2015,Upper middle income,0.0352,0.079599999,329.91382000000004,284.55069,6027.52
+Tajikistan,TJK,Europe & Central Asia (all income levels),ECS,2015,Lower middle income,0.071800001,0.0614,662.9205900000001,497.96367999999995,947.1383699999999
+Turkmenistan,TKM,Europe & Central Asia (all income levels),ECS,2015,Upper middle income,0.087299995,0.1366,587.659,587.659,6631.9575
+Timor-Leste,TLS,East Asia & Pacific (all income levels),EAS,2015,Lower middle income,0.025,0.025,463.94131,541.26489,2579.0996
+Tonga,TON,East Asia & Pacific (all income levels),EAS,2015,Upper middle income,0.0572,0.1125,279.39578,492.80877999999996,4220.6802
+Trinidad and Tobago,TTO,Latin America & Caribbean (all income levels),LCN,2015,High income,0.086300001,0.11430001,694.88098,912.41791,18497.65
+Tunisia,TUN,Middle East & North Africa (all income levels),MEA,2015,Lower middle income,0.0394,0.064899996,689.72607,762.9257200000001,3946.6978
+Turkey,TUR,Europe & Central Asia (all income levels),ECS,2015,Upper middle income,0.0319,0.027000001000000003,477.34405999999996,821.69165,11325.123
+Tuvalu,TUV,East Asia & Pacific (all income levels),EAS,2015,Upper middle income,0.015900001,0.08500000099999999,,,3332.2051
+Tanzania,TZA,Sub-Saharan Africa (all income levels),SSF,2015,Low income,0.072800003,0.1192,1479.4573,1778.4418,899.22467
+Uganda,UGA,Sub-Saharan Africa (all income levels),SSF,2015,Low income,0.0788,0.1168,320.63501,729.9343299999999,696.03687
+Ukraine,UKR,Europe & Central Asia (all income levels),ECS,2015,Lower middle income,0.019299998999999998,0.040799998,378.36992999999995,321.66598999999997,2190.4861
+Uruguay,URY,Latin America & Caribbean (all income levels),LCN,2015,High income,0.047899999000000006,0.09810000699999999,1367.0804,680.44727,16005.813
+United States,USA,North America,NAC,2015,High income,0.016900001,0.0287,242.28047,283.51968,58192.484000000004
+Uzbekistan,UZB,Europe & Central Asia (all income levels),ECS,2015,Lower middle income,0.087299995,0.1366,587.659,587.659,2203.8005
+St. Vincent and the Grenadines,VCT,Latin America & Caribbean (all income levels),LCN,2015,Upper middle income,0.07150000299999999,0.1019,520.64526,994.89636,7127.21
+"Venezuela, RB",VEN,Latin America & Caribbean (all income levels),LCN,2015,Upper middle income,0.1067,0.1182,1675.3436,1958.8633,16178.575
+British Virgin Islands,VGB,,,2015,High income,,,,,
+Virgin Islands (U.S.),VIR,Latin America & Caribbean (all income levels),LCN,2015,High income,,,,,36037.902
+Vietnam,VNM,East Asia & Pacific (all income levels),EAS,2015,Lower middle income,0.031400002999999996,0.061799999,461.87935999999996,592.8139,2129.1497
+Vanuatu,VUT,East Asia & Pacific (all income levels),EAS,2015,Lower middle income,0.0484,0.090500005,926.8516800000001,890.7673300000001,2875.1692
+Samoa,WSM,East Asia & Pacific (all income levels),EAS,2015,Upper middle income,0.1028,0.13060001,1628.9495,1165.0082,4277.9634
+Kosovo,XKX,,,2015,Lower middle income,,,340.22362999999996,175.26672,3684.9045
+"Yemen, Rep.",YEM,Middle East & North Africa (all income levels),MEA,2015,Lower middle income,0.051399997999999995,0.05519999900000001,-2.0619614,-2.0619614,1325.3906
+South Africa,ZAF,Sub-Saharan Africa (all income levels),SSF,2015,Upper middle income,0.0438,0.063500002,616.5264900000001,896.9531900000001,5924.7173
+Zambia,ZMB,Sub-Saharan Africa (all income levels),SSF,2015,Lower middle income,0.039500002,0.10640001,587.659,572.1942700000001,1354.5948
+Zimbabwe,ZWE,Sub-Saharan Africa (all income levels),SSF,2015,Low income,0.0572,0.1329,469.09622,373.21502999999996,1065.4319

@@ -1,0 +1,7 @@
+class,cost_per_km
+Undivided highway,0.85
+Divided highway,0.75
+Standard rail,0.47
+Hicap rail,0.35
+Sea link,0.05
+DNE,9999999999
