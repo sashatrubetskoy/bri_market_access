@@ -1,0 +1,910 @@
+Rank,City Name,Country Code,Project name,"Added land value per capita, USD","Added land value, USD Mn",Population 2015
+1,Kuantan,MYS,Kuantan Port,21.45,9.5,440846
+2,Kuala Terengganu,MYS,Kuantan Port,21.36,7.5,349240
+3,Kota Bharu,MYS,Kuantan Port,21.29,6.9,322580
+4,Kuala Lumpur,MYS,Kuantan Port,11.71,80.3,6851431
+5,Ipoh,MYS,Kuantan Port,11.66,8.6,737860
+6,Seremban,MYS,Kuantan Port,8.68,3.7,422754
+7,Almaty,KAZ,Highway A2,8.51,14.2,1665315
+8,Kazan,RUS,Moscow-Kazan HSR,8.03,9.7,1209896
+9,Kirov,RUS,Moscow-Kazan HSR,7.38,3.6,494602
+10,Macao,MAC,Thai Canal,6.24,3.8,600942
+11,Songkhla,THA,Kuantan Port,6.1,5.4,884336
+12,Surat Thani,THA,Kuantan Port,6.03,2.7,453760
+13,Phuket,THA,Kuantan Port,6.03,2.4,395436
+14,Ulyanovsk,RUS,Moscow-Kazan HSR,5.38,3.3,622149
+15,Buri Ram,THA,Burma Railway,5.29,2.2,415133
+16,Ubon Ratchathani,THA,Burma Railway,5.28,2.4,453995
+17,Vladivostok,RUS,Seaside I Corridor,4.89,2.9,603035
+18,Ahvaz,IRN,Tehran-Isfahan HSR,4.69,5.5,1166102
+19,Ashgabat,TKM,Tehran-Mashhad rail electrification,4.61,3.5,753486
+20,Roi Et,THA,Burma Railway,4.34,1.8,403114
+21,Nakhon Ratchasima,THA,Burma Railway,4.28,3.1,714578
+22,Khon-Kaen,THA,Burma Railway,4.27,2.0,459822
+23,Kalasin,THA,Burma Railway,4.26,2.0,473584
+24,Udon Thani,THA,Burma Railway,4.26,2.2,527441
+25,Sakon Nakhon,THA,Burma Railway,4.25,1.5,348655
+26,Mashhad,IRN,Tehran-Mashhad rail electrification,4.25,12.5,2935940
+27,Hong Kong,HKG,Thai Canal,4.23,30.7,7245701
+28,Samut Sakhon,THA,Burma Railway,4.07,2.2,529060
+29,Krung Thep (Bangkok)-Samut Prakan-Nonthaburi-Pathum Thani,THA,Burma Railway,4.07,50.2,12315233
+30,Nakhon Pathom,THA,Burma Railway,4.07,1.7,415525
+31,Ratchaburi,THA,Burma Railway,4.07,1.5,360841
+32,Oslo,NOR,Thai Canal,4.04,3.9,968549
+33,Chon Buri,THA,Burma Railway,3.94,5.0,1279618
+34,Rayong,THA,Burma Railway,3.94,1.9,492353
+35,Yining,CHN,Highway A2,3.83,1.3,326505
+36,Basel,CHE,Thai Canal,3.63,2.0,538824
+37,Ulaanbaatar,MNG,Central Rail Corridor,3.6,4.9,1364512
+38,Bern,CHE,Thai Canal,3.59,1.5,408660
+39,Zürich (Zurich),CHE,Thai Canal,3.59,4.8,1327026
+40,Lausanne,CHE,Thai Canal,3.59,1.5,405572
+41,Genève,CHE,Thai Canal,3.59,2.1,575247
+42,Gäncä,AZE,Tbilisi-Kars rail,3.24,1.1,327548
+43,Dublin,IRL,Thai Canal,3.21,3.7,1162823
+44,Tbilisi,GEO,Tbilisi-Kars rail,3.14,3.4,1078125
+45,Khabarovsk,RUS,Seaside I Corridor,3.12,1.9,606621
+46,København (Copenhagen),DNK,Thai Canal,2.72,3.5,1270867
+47,Baku,AZE,Tbilisi-Kars rail,2.65,5.9,2206320
+48,Naberezhnye Tchelny,RUS,Moscow-Kazan HSR,2.64,1.4,525731
+49,Sumquayit,AZE,Tbilisi-Kars rail,2.6,0.9,332764
+50,Lop Buri,THA,Burma Railway,2.58,0.8,322664
+51,Phra Nakhon Si Ayutthaya,THA,Burma Railway,2.51,1.0,403762
+52,Malmö,SWE,Thai Canal,2.51,0.8,300484
+53,Göteborg,SWE,Thai Canal,2.5,1.4,570454
+54,Stockholm,SWE,Thai Canal,2.5,3.7,1495198
+55,Eindhoven,NLD,Thai Canal,2.46,0.8,343544
+56,Rotterdam-s-Gravenhage (The Hague),NLD,Thai Canal,2.46,4.1,1672458
+57,Utrecht,NLD,Thai Canal,2.46,1.2,504027
+58,Amsterdam,NLD,Thai Canal,2.46,2.7,1106056
+59,Thành Pho Ho Chí Minh (Ho Chi Minh City)-Bien Hoa,VNM,Vietnam National HSR,2.28,18.7,8188504
+60,Vungtau,VNM,Vietnam National HSR,2.28,0.8,353875
+61,Can Tho,VNM,Vietnam National HSR,2.28,2.7,1184264
+62,Wien (Vienna),AUT,Thai Canal,2.22,4.1,1834982
+63,Antwerpen,BEL,Thai Canal,2.16,2.2,1017170
+64,Helsinki,FIN,Thai Canal,2.16,2.6,1222294
+65,Tampere,FIN,Thai Canal,2.16,0.7,326249
+66,Bruxelles-Brussel,BEL,Thai Canal,2.16,4.3,2002441
+67,Gent,BEL,Thai Canal,2.16,1.0,450558
+68,Liège,BEL,Thai Canal,2.15,1.4,667452
+69,Charleroi,BEL,Thai Canal,2.15,0.9,408840
+70,Köln (Cologne)-Bonn,DEU,Thai Canal,2.14,2.9,1372054
+71,Duesseldorf,DEU,Thai Canal,2.14,1.3,609649
+72,Essen-Bochum-Wuppertal-Duisburg,DEU,Thai Canal,2.12,3.8,1784000
+73,Dortmund,DEU,Thai Canal,2.12,1.2,585520
+74,Dresden,DEU,Thai Canal,2.11,1.1,540023
+75,Karlsruhe,DEU,Thai Canal,2.1,0.6,306442
+76,Mannheim,DEU,Thai Canal,2.1,0.6,302773
+77,Muenster (Westfalen),DEU,Thai Canal,2.09,0.6,307673
+78,Frankfurt am Main,DEU,Thai Canal,2.09,1.5,727367
+79,Bremen,DEU,Thai Canal,2.08,1.2,556303
+80,Bielefeld,DEU,Thai Canal,2.08,0.7,332777
+81,Stuttgart,DEU,Thai Canal,2.06,1.3,622425
+82,Hannover,DEU,Thai Canal,2.06,1.1,531366
+83,Hamburg,DEU,Thai Canal,2.06,3.7,1786302
+84,Nurenberg,DEU,Thai Canal,2.04,1.0,509516
+85,Berlin,DEU,Thai Canal,2.04,7.2,3513595
+86,München (Munich),DEU,Thai Canal,2.04,2.9,1439859
+87,Leipzig,DEU,Thai Canal,2.04,1.1,556776
+88,Southampton/Portsmouth (South Hampshire),GBR,Thai Canal,2.0,1.8,888126
+89,Bournemouth/Poole,GBR,Thai Canal,2.0,1.0,484005
+90,Brighton-Worthing-Littlehampton,GBR,Thai Canal,2.0,1.2,580593
+91,Southend-On-Sea,GBR,Thai Canal,2.0,0.6,302962
+92,Reading-Wokingham,GBR,Thai Canal,1.99,0.7,328863
+93,London,GBR,Thai Canal,1.99,17.2,8661381
+94,Leicester,GBR,Thai Canal,1.99,1.0,528382
+95,Bristol,GBR,Thai Canal,1.98,1.3,648210
+96,Cardiff-Newport,GBR,Thai Canal,1.98,1.5,772011
+97,Birmingham (West Midlands)-Coventry-Bedworth,GBR,Thai Canal,1.98,5.8,2904923
+98,Stoke-on-Trent (The Potteries),GBR,Thai Canal,1.98,0.8,378671
+99,Sheffield,GBR,Thai Canal,1.98,1.4,705526
+100,Nottingham,GBR,Thai Canal,1.98,1.5,755919
+101,Kingston upon Hull,GBR,Thai Canal,1.98,0.6,316985
+102,Liverpool-Birkenhead,GBR,Thai Canal,1.98,2.4,1207773
+103,Teeside (Middlesbrough),GBR,Thai Canal,1.98,0.8,381261
+104,Newcastle upon Tyne-Sunderland,GBR,Thai Canal,1.98,2.2,1128360
+105,Manchester,GBR,Thai Canal,1.98,5.2,2632914
+106,West Yorkshire,GBR,Thai Canal,1.98,3.6,1827948
+107,Swansea,GBR,Thai Canal,1.98,0.6,305282
+108,Preston,GBR,Thai Canal,1.98,0.6,319983
+109,Edinburgh,GBR,Thai Canal,1.98,1.0,506575
+110,Glasgow,GBR,Thai Canal,1.98,3.2,1643621
+111,Lille-Douai-Lens,FRA,Thai Canal,1.97,3.0,1545603
+112,Valenciennes,FRA,Thai Canal,1.97,0.7,336151
+113,Béthune,FRA,Thai Canal,1.97,0.7,355742
+114,Paris,FRA,Thai Canal,1.96,21.1,10733502
+115,Rouen,FRA,Thai Canal,1.96,0.9,467351
+116,Tours,FRA,Thai Canal,1.96,0.7,353679
+117,Rennes,FRA,Thai Canal,1.96,0.7,332911
+118,Nantes,FRA,Thai Canal,1.96,1.2,637595
+119,Kelamayi,CHN,Urumqi-Khorgos road,1.96,0.8,400336
+120,Strasbourg,FRA,Thai Canal,1.96,0.9,462348
+121,Bordeaux,FRA,Thai Canal,1.95,1.8,910083
+122,Belfast,GBR,Thai Canal,1.95,1.2,612187
+123,Lyon,FRA,Thai Canal,1.95,3.2,1646635
+124,Toulouse,FRA,Thai Canal,1.95,1.9,955127
+125,Saint-Étienne,FRA,Thai Canal,1.95,0.7,373254
+126,Grenoble,FRA,Thai Canal,1.94,1.0,513925
+127,Avignon,FRA,Thai Canal,1.94,0.9,457229
+128,Montpellier,FRA,Thai Canal,1.94,0.8,431850
+129,Marseille-Aix-en-Provence,FRA,Thai Canal,1.94,3.1,1587434
+130,Toulon,FRA,Thai Canal,1.93,1.1,570592
+131,Ulan-Ude,RUS,Central Rail Corridor,1.88,0.8,425102
+132,Irkutsk,RUS,Central Rail Corridor,1.85,1.1,614868
+133,Nice-Cannes,FRA,Thai Canal,1.79,1.7,943151
+134,Krasnoyarsk,RUS,Central Rail Corridor,1.79,1.9,1055462
+135,Novokuznetsk,RUS,Central Rail Corridor,1.76,1.0,551343
+136,Tomsk,RUS,Central Rail Corridor,1.75,1.0,560720
+137,Kemerovo,RUS,Central Rail Corridor,1.75,1.0,551031
+138,Nha Trang,VNM,Vietnam National HSR,1.74,0.5,314359
+139,Barnaul,RUS,Central Rail Corridor,1.71,1.1,628180
+140,Novosibirsk,RUS,Central Rail Corridor,1.69,2.7,1570661
+141,Mudanjiang,CHN,Seaside I Corridor,1.68,1.4,852684
+142,Jixi Heilongjiang,CHN,Seaside I Corridor,1.68,1.5,891598
+143,Qitaihe,CHN,Seaside I Corridor,1.67,0.9,538391
+144,Baotou,CHN,Central Rail Corridor,1.61,3.2,1961855
+145,Bayannaoer,CHN,Central Rail Corridor,1.6,0.6,394828
+146,Vicenza,ITA,Thai Canal,1.57,0.5,313908
+147,Padova,ITA,Thai Canal,1.57,1.0,656473
+148,Venezia-Treviso,ITA,Thai Canal,1.57,1.5,981983
+149,Torino (Turin),ITA,Thai Canal,1.53,2.7,1767321
+150,Roma (Rome),ITA,Thai Canal,1.49,6.1,4113186
+151,Napoli (Naples)-Caserta-Nola,ITA,Thai Canal,1.49,4.4,2942977
+152,Latina,ITA,Thai Canal,1.49,0.6,418413
+153,Salerno,ITA,Thai Canal,1.49,0.6,414363
+154,Catania,ITA,Thai Canal,1.49,0.9,582888
+155,Palermo,ITA,Thai Canal,1.49,1.3,854385
+156,Bologna,ITA,Thai Canal,1.48,1.2,785291
+157,Firenze (Florence),ITA,Thai Canal,1.48,1.0,701661
+158,Reggio Emilia-Parma-Modena,ITA,Thai Canal,1.48,1.5,1001509
+159,Pescara,ITA,Thai Canal,1.48,0.5,365376
+160,Bari,ITA,Thai Canal,1.48,0.9,619013
+161,Taranto,ITA,Thai Canal,1.48,0.7,459409
+162,Barletta,ITA,Thai Canal,1.48,0.5,339190
+163,Datong,CHN,Central Rail Corridor,1.47,2.3,1535736
+164,Genova (Genoa),ITA,Thai Canal,1.46,1.0,692425
+165,Bilbao,ESP,Thai Canal,1.44,0.5,351865
+166,Valladolid,ESP,Thai Canal,1.43,0.4,309909
+167,Vigo,ESP,Thai Canal,1.43,0.4,301483
+168,Madrid,ESP,Thai Canal,1.43,8.9,6221450
+169,Zaragoza,ESP,Thai Canal,1.43,1.0,702842
+170,Barcelona,ESP,Thai Canal,1.43,7.5,5276919
+171,Valencia,ESP,Thai Canal,1.42,1.2,812636
+172,Cordoba,ESP,Thai Canal,1.42,0.5,336067
+173,Malaga,ESP,Thai Canal,1.42,0.8,575629
+174,Sevilla,ESP,Thai Canal,1.42,1.0,703015
+175,Alicante,ESP,Thai Canal,1.42,0.5,347407
+176,Murcia,ESP,Thai Canal,1.42,0.7,465074
+177,Milano (Milan)-Busto Arsizio-Seregno-Como,ITA,Thai Canal,1.41,6.8,4785052
+178,Bergamo,ITA,Thai Canal,1.4,1.2,841017
+179,Brescia,ITA,Thai Canal,1.39,0.6,463779
+180,Hohhot,CHN,Central Rail Corridor,1.37,2.5,1790350
+181,Verona,ITA,Thai Canal,1.37,0.8,606463
+182,Omsk,RUS,Central Rail Corridor,1.3,1.5,1172471
+183,Ust-Kamenogorsk,KAZ,Highway A3,1.23,0.4,321309
+184,Vientiane,LAO,Burma Railway,1.11,0.7,642079
+185,Changji,CHN,Urumqi-Khorgos rail,1.1,0.4,344287
+186,Ürümqi (Wulumqi),CHN,Urumqi-Khorgos rail,1.1,3.9,3510512
+187,Shihezi,CHN,Urumqi-Khorgos rail,1.09,0.4,320959
+188,Thessaloniki,GRC,Thai Canal,1.06,0.9,809043
+189,Athínai (Athens),GRC,Thai Canal,1.06,3.3,3161155
+190,Da Nang,VNM,Vietnam National HSR,1.05,1.0,958692
+191,Hue,VNM,Vietnam National HSR,1.05,0.4,356212
+192,Porto,PRT,Thai Canal,1.04,1.3,1298796
+193,Lisboa (Lisbon),PRT,Thai Canal,1.03,3.0,2883360
+194,Wuhai,CHN,Central Rail Corridor,1.02,0.6,560732
+195,Pavlodar,KAZ,Central Rail Corridor,1.01,0.3,331493
+196,Praha (Prague),CZE,Thai Canal,0.99,1.3,1269488
+197,Brno,CZE,Thai Canal,0.99,0.4,377802
+198,Zhangjiakou,CHN,Central Rail Corridor,0.98,1.2,1270509
+199,Kuerle,CHN,Urumqi-Khorgos rail,0.97,0.5,564851
+200,Akesu,CHN,Urumqi-Khorgos rail,0.97,0.3,341320
+201,Erduosi (Ordoss),CHN,Central Rail Corridor,0.94,0.6,590998
+202,Semipalatinsk,KAZ,Urumqi-Khorgos rail,0.88,0.3,315464
+203,Bratislava,SVK,Thai Canal,0.87,0.4,421937
+204,Taraz,KAZ,Urumqi-Khorgos rail,0.86,0.3,350125
+205,Shimkent,KAZ,Urumqi-Khorgos rail,0.86,0.7,840098
+206,Tallinn,EST,Thai Canal,0.85,0.4,416235
+207,Kurgan,RUS,Central Rail Corridor,0.79,0.3,324803
+208,Yerevan,ARM,Tbilisi-Kars rail,0.79,0.8,1071265
+209,Qom,IRN,Tehran-Isfahan HSR,0.78,0.9,1173837
+210,Tyumen,RUS,Central Rail Corridor,0.77,0.5,701450
+211,Surgut,RUS,Central Rail Corridor,0.77,0.3,346733
+212,Yazd,IRN,Tehran-Isfahan HSR,0.76,0.4,518404
+213,Shiraz,IRN,Tehran-Isfahan HSR,0.76,1.2,1538573
+214,Singapore,SGP,Bangkok-Pedang Besar-Kuala Lumpur rail,0.76,4.2,5535262
+215,Kerman,IRN,Tehran-Isfahan HSR,0.75,0.4,536894
+216,Phnum Pénh (Phnom Penh),KHM,Burma Railway,0.75,1.3,1778611
+217,Bandar Abbas,IRN,Tehran-Isfahan HSR,0.75,0.4,502208
+218,Zahedan,IRN,Tehran-Isfahan HSR,0.74,0.4,580837
+219,Esfahan,IRN,Tehran-Isfahan HSR,0.73,1.4,1907662
+220,Vilnius,LTU,Thai Canal,0.71,0.4,531260
+221,Arak,IRN,Tehran-Isfahan HSR,0.7,0.4,511477
+222,Mersin,TUR,Thai Canal,0.7,0.6,924390
+223,Adana,TUR,Thai Canal,0.7,1.2,1672787
+224,Shenzhen,CHN,Thai Canal,0.7,7.9,11275391
+225,Gaziantep,TUR,Thai Canal,0.7,1.1,1526990
+226,Malatya,TUR,Thai Canal,0.7,0.3,457618
+227,Sanliurfa,TUR,Thai Canal,0.7,0.4,563968
+228,Elazig,TUR,Thai Canal,0.7,0.2,356367
+229,Dongguan,CHN,Thai Canal,0.7,5.1,7325456
+230,Huizhou,CHN,Thai Canal,0.7,1.5,2125972
+231,Zhuhai,CHN,Thai Canal,0.7,1.1,1545946
+232,Batman,TUR,Thai Canal,0.7,0.3,386556
+233,Zhongshan,CHN,Thai Canal,0.7,2.0,2819704
+234,Diyarbakir,TUR,Thai Canal,0.7,0.7,939710
+235,Shanwei,CHN,Thai Canal,0.7,0.3,397787
+236,Taishan-Kaiping,CHN,Thai Canal,0.7,0.6,837553
+237,Antalya,TUR,Thai Canal,0.7,0.8,1083923
+238,Van,TUR,Thai Canal,0.7,0.3,428675
+239,Yangjiang,CHN,Thai Canal,0.7,0.5,781892
+240,Enping,CHN,Thai Canal,0.69,0.2,305077
+241,Jiangmen-Heshan,CHN,Thai Canal,0.69,1.3,1906815
+242,Heyuan,CHN,Thai Canal,0.69,0.3,484504
+243,Guangzhou Guangdong-Foshan,CHN,Thai Canal,0.69,13.0,18721527
+244,Zhaoqing,CHN,Thai Canal,0.69,0.6,892486
+245,Qingyuan,CHN,Thai Canal,0.69,0.5,693870
+246,Sihui,CHN,Thai Canal,0.69,0.3,455553
+247,Shanghai,CHN,Thai Canal,0.69,16.3,23482181
+248,Qidong,CHN,Thai Canal,0.69,0.2,305343
+249,Yunfu,CHN,Thai Canal,0.69,0.2,326760
+250,Luoding,CHN,Thai Canal,0.69,0.2,320936
+251,Erzurum,TUR,Thai Canal,0.69,0.3,390288
+252,Kunshan -Taicang,CHN,Thai Canal,0.69,0.8,1114623
+253,Wuzhou,CHN,Thai Canal,0.69,0.4,605282
+254,Changshu,CHN,Thai Canal,0.69,0.5,728724
+255,Haimen,CHN,Thai Canal,0.69,0.4,530478
+256,Suzhou Jiangsu,CHN,Thai Canal,0.69,3.7,5336392
+257,Nantong,CHN,Thai Canal,0.69,1.3,1906072
+258,Cenxi,CHN,Thai Canal,0.69,0.3,433708
+259,Jiaxing-Pinghu-Tongxiang-Haining,CHN,Thai Canal,0.69,1.6,2281994
+260,Maoming-Wuchuan -Huazhou-Gaozhou,CHN,Thai Canal,0.69,1.5,2105497
+261,Nanjing Jiangsu,CHN,Thai Canal,0.69,5.1,7391907
+262,Wuxi Jiangsu,CHN,Thai Canal,0.69,2.1,2986721
+263,Yingde,CHN,Thai Canal,0.69,0.3,385154
+264,Jurong,CHN,Thai Canal,0.69,0.2,358691
+265,Jiangyin-Zhangjiagang,CHN,Thai Canal,0.69,0.8,1209209
+266,Xinyi Guangdong,CHN,Thai Canal,0.69,0.3,364755
+267,Cixi-Yuyao-Shangyu,CHN,Thai Canal,0.69,1.6,2341770
+268,Ma'anshan,CHN,Thai Canal,0.69,0.6,860782
+269,Zhangzhou-Longhai,CHN,Thai Canal,0.69,0.9,1242220
+270,Puning,CHN,Thai Canal,0.69,0.7,1003062
+271,Guigang,CHN,Thai Canal,0.69,0.5,762786
+272,Xingning,CHN,Thai Canal,0.69,0.3,363320
+273,Liyang-Yixing,CHN,Thai Canal,0.69,0.5,793930
+274,Yangzhou-Zhenjiang Jiangsu-Danyang,CHN,Thai Canal,0.69,2.4,3418998
+275,Shaoguan,CHN,Thai Canal,0.69,0.5,741953
+276,Longyan,CHN,Thai Canal,0.69,0.4,640519
+277,Wuhu Anhui,CHN,Thai Canal,0.69,1.0,1430027
+278,Changzhou Jiangsu,CHN,Thai Canal,0.69,2.1,3014641
+279,Dalian,CHN,Thai Canal,0.69,3.3,4848956
+280,Dongtai,CHN,Thai Canal,0.69,0.4,573107
+281,Xiamen,CHN,Thai Canal,0.69,2.3,3394909
+282,Guiping,CHN,Thai Canal,0.69,0.5,668262
+283,Taixing-Jingjiang,CHN,Thai Canal,0.69,0.8,1110946
+284,Taizhou Jiangsu,CHN,Thai Canal,0.69,0.8,1186960
+285,Yulin Guangxi,CHN,Thai Canal,0.69,0.4,578255
+286,Gaoyou,CHN,Thai Canal,0.69,0.3,413946
+287,Huzhou,CHN,Thai Canal,0.69,0.6,856361
+288,Nanning,CHN,Thai Canal,0.69,2.3,3299607
+289,Xinghua,CHN,Thai Canal,0.69,0.5,671520
+290,Ganzhou-Nankang,CHN,Thai Canal,0.69,0.9,1319043
+291,Zhanjiang,CHN,Thai Canal,0.69,0.8,1151860
+292,Chuzhou,CHN,Thai Canal,0.69,0.3,450654
+293,Qinzhou,CHN,Thai Canal,0.69,0.4,558991
+294,Chaozhou-Jieyang,CHN,Thai Canal,0.69,1.6,2247365
+295,Shengzhou,CHN,Thai Canal,0.69,0.3,371163
+296,Beihai,CHN,Thai Canal,0.69,0.3,474007
+297,Meizhou,CHN,Thai Canal,0.69,0.3,374099
+298,Fangchenggang,CHN,Thai Canal,0.69,0.2,340408
+299,Guilin,CHN,Thai Canal,0.69,0.7,1042135
+300,Shantou,CHN,Thai Canal,0.69,2.7,3957770
+301,Quanzhou-Shishi-Jinjiang,CHN,Thai Canal,0.69,1.6,2356677
+302,Shaoxing,CHN,Thai Canal,0.69,1.4,2082436
+303,Tongling,CHN,Thai Canal,0.69,0.4,602849
+304,Zhoushan,CHN,Thai Canal,0.69,0.4,590469
+305,Laibin,CHN,Thai Canal,0.69,0.2,355893
+306,Putian,CHN,Thai Canal,0.69,1.0,1443271
+307,Hangzhou,CHN,Thai Canal,0.69,4.6,6657736
+308,Liuzhou,CHN,Thai Canal,0.69,1.3,1867240
+309,Hezhou,CHN,Thai Canal,0.69,0.3,484263
+310,Denizli,TUR,Thai Canal,0.69,0.4,564789
+311,Chaohu,CHN,Thai Canal,0.69,0.3,441623
+312,Haikou,CHN,Thai Canal,0.69,1.2,1686678
+313,Zhuji,CHN,Thai Canal,0.69,0.5,684035
+314,Fuqing,CHN,Thai Canal,0.69,0.4,522682
+315,Ningbo,CHN,Thai Canal,0.69,2.3,3390902
+316,Hengyang,CHN,Thai Canal,0.69,0.9,1299163
+317,Leiyang,CHN,Thai Canal,0.69,0.4,632023
+318,Fuzhou Fujian,CHN,Thai Canal,0.69,2.3,3314441
+319,Xuancheng,CHN,Thai Canal,0.69,0.3,381400
+320,Sivas,TUR,Thai Canal,0.69,0.2,323503
+321,Huai'an,CHN,Thai Canal,0.69,1.4,2092995
+322,Jinhua,CHN,Thai Canal,0.69,0.6,887707
+323,Zhuanghe,CHN,Thai Canal,0.69,0.3,374274
+324,Changning,CHN,Thai Canal,0.69,0.3,409805
+325,Yancheng Jiangsu,CHN,Thai Canal,0.69,1.1,1657069
+326,Yiwu-Dongyang,CHN,Thai Canal,0.69,1.1,1582942
+327,Yongkang,CHN,Thai Canal,0.69,0.3,442726
+328,Karaganda,KAZ,Urumqi-Khorgos rail,0.69,0.3,490892
+329,Yongzhou,CHN,Thai Canal,0.69,0.4,646992
+330,Sanming,CHN,Thai Canal,0.69,0.2,348914
+331,Manisa,TUR,Thai Canal,0.69,0.2,336459
+332,Izmir,TUR,Thai Canal,0.69,2.0,2860197
+333,Nanping,CHN,Thai Canal,0.69,0.3,447407
+334,Fuan,CHN,Thai Canal,0.69,0.3,384951
+335,Anqing,CHN,Thai Canal,0.69,0.4,641439
+336,Wenzhou-Ruian,CHN,Thai Canal,0.69,2.8,4105143
+337,Chenzhou,CHN,Thai Canal,0.69,0.5,743256
+338,Hechi,CHN,Thai Canal,0.69,0.2,348346
+339,Lishui Zhejiang,CHN,Thai Canal,0.69,0.2,350536
+340,Yueqing-Yuhuan,CHN,Thai Canal,0.69,0.9,1273119
+341,Linhai,CHN,Thai Canal,0.69,0.4,594446
+342,Chizhou,CHN,Thai Canal,0.69,0.2,361854
+343,Taizhou Zhejiang-Wenling,CHN,Thai Canal,0.69,1.7,2529886
+344,Zhuzhou-Xiangtan Hunan,CHN,Thai Canal,0.69,1.4,2097596
+345,Sanya,CHN,Thai Canal,0.69,0.4,530177
+346,Wafangdian ,CHN,Thai Canal,0.69,0.3,435091
+347,Tongcheng,CHN,Thai Canal,0.69,0.2,333738
+348,Hefei,CHN,Thai Canal,0.69,2.5,3608431
+349,Eskisehir,TUR,Thai Canal,0.69,0.5,693601
+350,Liling,CHN,Thai Canal,0.69,0.4,599805
+351,Huangshan,CHN,Thai Canal,0.69,0.2,336866
+352,Changsha,CHN,Thai Canal,0.69,2.8,4013593
+353,Bengbu,CHN,Thai Canal,0.69,0.6,843638
+354,Pingxiang Jiangxi,CHN,Thai Canal,0.69,0.6,812264
+355,Loudi,CHN,Thai Canal,0.69,0.4,518322
+356,Quzhou,CHN,Thai Canal,0.69,0.4,561826
+357,Liuan,CHN,Thai Canal,0.69,0.6,882755
+358,Liuyang,CHN,Thai Canal,0.69,0.6,822364
+359,Shaoyang,CHN,Thai Canal,0.69,0.4,637876
+360,Yiyang Hunan,CHN,Thai Canal,0.69,0.3,473332
+361,Shangrao,CHN,Thai Canal,0.69,0.6,899787
+362,Suqian,CHN,Thai Canal,0.69,0.7,1054212
+363,Yuanjiang,CHN,Thai Canal,0.69,0.2,309862
+364,Yichun Jiangxi,CHN,Thai Canal,0.69,0.4,645801
+365,Lianyungang,CHN,Thai Canal,0.69,1.1,1537426
+366,Huainan,CHN,Thai Canal,0.69,0.9,1330286
+367,Xinyu,CHN,Thai Canal,0.68,0.5,693906
+368,Miluo,CHN,Thai Canal,0.68,0.3,437053
+369,Songyuan,CHN,Thai Canal,0.68,0.3,487230
+370,Jingdezhen,CHN,Thai Canal,0.68,0.3,378300
+371,Huaihua,CHN,Thai Canal,0.68,0.4,592499
+372,Sakarya,TUR,Thai Canal,0.68,0.3,468689
+373,Ji'an Jiangxi,CHN,Thai Canal,0.68,0.3,376290
+374,Leping,CHN,Thai Canal,0.68,0.2,314596
+375,Suzhou Anhui,CHN,Thai Canal,0.68,0.6,926554
+376,Izmit,TUR,Thai Canal,0.68,0.2,314092
+377,Changde,CHN,Thai Canal,0.68,0.5,715729
+378,Xinyi Jiangsu,CHN,Thai Canal,0.68,0.3,472114
+379,Xuzhou,CHN,Thai Canal,0.68,1.3,1922499
+380,Pizhou,CHN,Thai Canal,0.68,0.6,814029
+381,Huaibei,CHN,Thai Canal,0.68,0.7,983455
+382,Yongcheng,CHN,Thai Canal,0.68,0.3,391272
+383,Fuyang,CHN,Thai Canal,0.68,0.6,895018
+384,Ankara,TUR,Thai Canal,0.68,3.2,4633405
+385,Wuhan,CHN,Thai Canal,0.68,5.4,7921253
+386,Xiaogan,CHN,Thai Canal,0.68,0.5,672457
+387,Dandong,CHN,Thai Canal,0.68,0.6,822598
+388,Hanchuan,CHN,Thai Canal,0.68,0.4,575792
+389,Donggang,CHN,Thai Canal,0.68,0.2,326875
+390,Nanchang,CHN,Thai Canal,0.68,2.1,3052699
+391,Xianning,CHN,Thai Canal,0.68,0.2,344870
+392,Konya,TUR,Thai Canal,0.68,0.8,1187777
+393,Gebze,TUR,Thai Canal,0.68,0.4,618004
+394,Istanbul,TUR,Thai Canal,0.68,9.6,14126772
+395,Xiantao,CHN,Thai Canal,0.68,0.4,569199
+396,Xiangyang,CHN,Thai Canal,0.68,1.0,1536552
+397,Bozhou,CHN,Thai Canal,0.68,0.4,589788
+398,Fengcheng,CHN,Thai Canal,0.68,0.3,411241
+399,Gaoan,CHN,Thai Canal,0.68,0.2,366224
+400,Macheng,CHN,Thai Canal,0.68,0.2,325571
+401,Qufu,CHN,Thai Canal,0.68,0.2,331553
+402,Fuzhou Jiangxi,CHN,Thai Canal,0.68,0.5,799046
+403,Yichang,CHN,Thai Canal,0.68,0.9,1267841
+404,Tianmen,CHN,Thai Canal,0.68,0.5,726260
+405,Jiujiang,CHN,Thai Canal,0.68,0.5,798678
+406,Qianjiang,CHN,Thai Canal,0.68,0.3,471798
+407,Bursa,TUR,Thai Canal,0.68,1.2,1816400
+408,Huangshi-Daye-Ezhou,CHN,Thai Canal,0.68,1.3,1898273
+409,Tengzhou,CHN,Thai Canal,0.68,0.7,960102
+410,Suizhou,CHN,Thai Canal,0.68,0.3,417283
+411,Zaozhuang,CHN,Thai Canal,0.68,0.7,1030166
+412,Haicheng,CHN,Thai Canal,0.68,0.5,731614
+413,Rizhao,CHN,Thai Canal,0.68,0.7,1065567
+414,Zaoyang,CHN,Thai Canal,0.68,0.3,496794
+415,Yueyang,CHN,Thai Canal,0.68,0.7,963417
+416,Shangqiu,CHN,Thai Canal,0.68,0.5,711867
+417,Jining Shandong,CHN,Thai Canal,0.68,0.9,1387847
+418,Linyi Shandong,CHN,Thai Canal,0.68,1.2,1710404
+419,Yingkou-Dashiqiao,CHN,Thai Canal,0.68,0.9,1368340
+420,Shiyan,CHN,Thai Canal,0.68,0.7,1050284
+421,Dengzhou,CHN,Thai Canal,0.68,0.4,525462
+422,Kaifeng,CHN,Thai Canal,0.68,0.7,1062031
+423,Jingmen,CHN,Thai Canal,0.68,0.3,439561
+424,Zhongxiang,CHN,Thai Canal,0.68,0.3,463329
+425,Jingzhou Hubei,CHN,Thai Canal,0.68,0.7,965987
+426,Taian Shandong,CHN,Thai Canal,0.68,0.8,1222345
+427,Kayseri,TUR,Thai Canal,0.68,0.6,910672
+428,Feicheng,CHN,Thai Canal,0.68,0.3,508926
+429,Anshan-Liaoyang,CHN,Thai Canal,0.68,1.6,2352580
+430,Panjin,CHN,Thai Canal,0.68,0.6,947102
+431,Xintai,CHN,Thai Canal,0.68,0.5,787474
+432,Kahramanmaras,TUR,Thai Canal,0.68,0.3,481876
+433,Laiwu,CHN,Thai Canal,0.68,0.5,775630
+434,Ji'nan Shandong,CHN,Thai Canal,0.68,3.1,4613117
+435,Zhengzhou,CHN,Thai Canal,0.68,3.0,4400992
+436,Zhumadian,CHN,Thai Canal,0.68,0.4,562609
+437,Xinmi-Xingyang,CHN,Thai Canal,0.68,0.5,777328
+438,Samsun,TUR,Thai Canal,0.68,0.4,549921
+439,Jiaozuo,CHN,Thai Canal,0.68,0.5,732087
+440,Shenyang,CHN,Thai Canal,0.68,4.4,6497927
+441,Xinzheng-Changge,CHN,Thai Canal,0.68,0.5,754271
+442,Heze,CHN,Thai Canal,0.68,0.5,757710
+443,Zhucheng,CHN,Thai Canal,0.68,0.5,719094
+444,Guiyang,CHN,Thai Canal,0.68,2.0,2878809
+445,Enshi,CHN,Thai Canal,0.68,0.3,430139
+446,Gongyi-Yanshi,CHN,Thai Canal,0.68,0.6,818826
+447,Dengfeng,CHN,Thai Canal,0.68,0.3,395098
+448,Jincheng,CHN,Thai Canal,0.68,0.4,588209
+449,Luoyang,CHN,Thai Canal,0.68,1.4,2020986
+450,Benxi,CHN,Thai Canal,0.68,0.7,1072579
+451,Tieling,CHN,Thai Canal,0.68,0.3,397053
+452,Fushun Liaoning,CHN,Thai Canal,0.68,0.9,1300085
+453,Puyang,CHN,Thai Canal,0.68,0.4,524738
+454,Linqing,CHN,Thai Canal,0.68,0.2,361772
+455,Liaocheng,CHN,Thai Canal,0.68,0.5,676630
+456,Xinyang,CHN,Thai Canal,0.68,0.5,703286
+457,Xinxiang-Huixian,CHN,Thai Canal,0.68,0.9,1297918
+458,Zibo,CHN,Thai Canal,0.68,1.7,2435688
+459,Qingdao,CHN,Thai Canal,0.68,3.4,5041473
+460,Jiyuan,CHN,Thai Canal,0.68,0.3,375556
+461,Luohe,CHN,Thai Canal,0.68,0.5,768291
+462,Sanmenxia,CHN,Thai Canal,0.68,0.3,473661
+463,Yantai,CHN,Thai Canal,0.68,1.4,2120864
+464,Nanyang Henan,CHN,Thai Canal,0.68,0.7,1010082
+465,Shouguang,CHN,Thai Canal,0.68,0.3,507598
+466,Pingdingshan Henan,CHN,Thai Canal,0.68,0.7,998084
+467,Zhoukou,CHN,Thai Canal,0.68,0.4,545309
+468,Qingzhou,CHN,Thai Canal,0.68,0.3,445180
+469,Hebi,CHN,Thai Canal,0.68,0.4,518229
+470,Yuncheng,CHN,Thai Canal,0.68,0.4,537187
+471,Jinzhou,CHN,Thai Canal,0.68,0.7,1037315
+472,Xuchang,CHN,Thai Canal,0.68,0.5,803957
+473,Rongcheng,CHN,Thai Canal,0.68,0.3,383836
+474,Huludao,CHN,Thai Canal,0.68,0.5,705553
+475,Ankang,CHN,Thai Canal,0.68,0.3,488299
+476,Weihai,CHN,Thai Canal,0.68,0.7,1090639
+477,Weifang,CHN,Thai Canal,0.68,1.5,2201353
+478,Anqiu,CHN,Thai Canal,0.68,0.3,494694
+479,Gaomi-Jiaozhou,CHN,Thai Canal,0.68,0.7,1044856
+480,Changyi,CHN,Thai Canal,0.68,0.3,369960
+481,Laixi-Laiyang,CHN,Thai Canal,0.68,0.5,788124
+482,Gdańsk,POL,Thai Canal,0.68,0.3,462778
+483,Tonghua,CHN,Thai Canal,0.68,0.4,520872
+484,Pingdu,CHN,Thai Canal,0.68,0.3,472170
+485,Anyang,CHN,Thai Canal,0.68,0.8,1144382
+486,Poznań,POL,Thai Canal,0.68,0.4,544305
+487,Longkou,CHN,Thai Canal,0.68,0.3,447860
+488,Changzhi,CHN,Thai Canal,0.68,0.5,740404
+489,Linzhou,CHN,Thai Canal,0.68,0.2,361007
+490,Chaoyang,CHN,Thai Canal,0.68,0.3,505955
+491,Siping,CHN,Thai Canal,0.68,0.4,548396
+492,Weinan,CHN,Thai Canal,0.68,0.3,499938
+493,Zhaoyuan,CHN,Thai Canal,0.68,0.2,311837
+494,Laizhou,CHN,Thai Canal,0.68,0.3,386118
+495,Liaoyuan,CHN,Thai Canal,0.68,0.3,376743
+496,Fuxin,CHN,Thai Canal,0.68,0.5,791298
+497,Binzhou,CHN,Thai Canal,0.68,0.6,883104
+498,Zunyi,CHN,Thai Canal,0.68,0.8,1124520
+499,Xi'an Shaanxi-Xianyang Shaanxi,CHN,Thai Canal,0.68,5.0,7338287
+500,Baoji,CHN,Thai Canal,0.68,0.7,1003254
+501,Bydgoszcz,POL,Thai Canal,0.68,0.2,356644
+502,Tongchuan,CHN,Thai Canal,0.68,0.3,501918
+503,Dezhou,CHN,Thai Canal,0.68,0.6,824677
+504,Yan'an,CHN,Thai Canal,0.68,0.4,525241
+505,Kaili,CHN,Thai Canal,0.68,0.2,307904
+506,Qinhuangdao,CHN,Thai Canal,0.68,0.9,1286354
+507,Wrocław,POL,Thai Canal,0.68,0.4,635737
+508,Tongliao,CHN,Thai Canal,0.68,0.4,613434
+509,Baishan,CHN,Thai Canal,0.68,0.4,639108
+510,Linfen,CHN,Thai Canal,0.68,0.5,696244
+511,Budapest,HUN,Thai Canal,0.68,1.2,1745894
+512,Changchun,CHN,Thai Canal,0.68,2.7,3978636
+513,Dongying,CHN,Thai Canal,0.68,0.7,1103698
+514,Cangzhou,CHN,Thai Canal,0.68,0.4,527808
+515,Gongzhuling,CHN,Thai Canal,0.68,0.2,354151
+516,Kraków (Cracow),POL,Thai Canal,0.68,0.5,763456
+517,Hengshui,CHN,Thai Canal,0.68,0.5,685421
+518,Jilin,CHN,Thai Canal,0.68,1.0,1523386
+519,Botou,CHN,Thai Canal,0.68,0.2,317365
+520,Łódź,POL,Thai Canal,0.68,0.5,704967
+521,Chifeng,CHN,Thai Canal,0.68,0.7,1020948
+522,Anshun,CHN,Thai Canal,0.68,0.3,507099
+523,Handan,CHN,Thai Canal,0.68,1.5,2247795
+524,Tianshui,CHN,Thai Canal,0.68,0.4,642345
+525,Warszawa (Warsaw),POL,Thai Canal,0.68,1.2,1740175
+526,Pingliang,CHN,Thai Canal,0.68,0.2,305646
+527,Liupanshui,CHN,Thai Canal,0.67,0.5,812610
+528,Chengde,CHN,Thai Canal,0.67,0.5,685435
+529,Tianjin,CHN,Thai Canal,0.67,8.4,12516041
+530,Xingtai,CHN,Thai Canal,0.67,0.5,743543
+531,Tangshan Hebei,CHN,Thai Canal,0.67,1.9,2752577
+532,Xingyi Guizhou,CHN,Thai Canal,0.67,0.2,351111
+533,Shijiazhuang,CHN,Thai Canal,0.67,2.5,3716628
+534,Yanji,CHN,Thai Canal,0.67,0.4,590009
+535,Yangquan,CHN,Thai Canal,0.67,0.5,701009
+536,Beijing,CHN,Thai Canal,0.67,12.4,18421198
+537,Xiongan,CHN,Thai Canal,0.67,0.4,620920
+538,Renqiu-Hejian,CHN,Thai Canal,0.67,0.6,847308
+539,Bijie,CHN,Thai Canal,0.67,0.3,515477
+540,Baoding,CHN,Thai Canal,0.67,1.2,1766400
+541,Taiyuan Shanxi-Jinzhong,CHN,Thai Canal,0.67,2.7,4004014
+542,Langfang,CHN,Thai Canal,0.67,0.4,623567
+543,Xinzhou,CHN,Thai Canal,0.67,0.2,322304
+544,Lanzhou,CHN,Thai Canal,0.67,1.8,2730100
+545,Sanhe,CHN,Thai Canal,0.67,0.3,438534
+546,Baiyin,CHN,Thai Canal,0.67,0.3,381864
+547,Lublin,POL,Thai Canal,0.67,0.2,342882
+548,Zhuozhou,CHN,Thai Canal,0.67,0.2,302882
+549,Haerbin,CHN,Thai Canal,0.67,3.9,5729657
+550,Kunming,CHN,Thai Canal,0.67,2.6,3927300
+551,Yushu,CHN,Thai Canal,0.67,0.2,315231
+552,Qujing,CHN,Thai Canal,0.67,0.5,776142
+553,Yuxi,CHN,Thai Canal,0.67,0.3,511817
+554,Chongqing,CHN,Thai Canal,0.67,9.0,13372015
+555,Zhaodong,CHN,Thai Canal,0.67,0.3,441652
+556,Shuozhou,CHN,Thai Canal,0.67,0.3,461178
+557,Lvliang,CHN,Thai Canal,0.67,0.2,330057
+558,Suihua,CHN,Thai Canal,0.67,0.3,390753
+559,Xining,CHN,Thai Canal,0.67,0.9,1326613
+560,Chuxiong,CHN,Thai Canal,0.67,0.3,405499
+561,Shenmu,CHN,Thai Canal,0.67,0.2,313036
+562,Hanzhong,CHN,Thai Canal,0.67,0.4,545282
+563,Yulin Shaanxi,CHN,Thai Canal,0.67,0.4,642753
+564,Yinchuan,CHN,Thai Canal,0.67,0.9,1346828
+565,Dazhou,CHN,Thai Canal,0.67,0.4,569571
+566,Wuwei,CHN,Thai Canal,0.67,0.2,362677
+567,Zhangye,CHN,Thai Canal,0.67,0.3,420013
+568,Yichun Heilongjiang,CHN,Thai Canal,0.67,0.4,644278
+569,Jiamusi,CHN,Thai Canal,0.67,0.4,670026
+570,Dali,CHN,Thai Canal,0.67,0.3,432527
+571,Baicheng,CHN,Thai Canal,0.67,0.2,310219
+572,Hegang,CHN,Thai Canal,0.67,0.4,618192
+573,Wulanhaote,CHN,Thai Canal,0.67,0.2,303418
+574,Panzhihua,CHN,Thai Canal,0.67,0.4,666262
+575,Shuangyashan,CHN,Thai Canal,0.67,0.3,490972
+576,Riga,LVA,Thai Canal,0.67,0.4,645815
+577,Guang'an,CHN,Thai Canal,0.67,0.3,389907
+578,Luzhou,CHN,Thai Canal,0.67,0.5,779497
+579,Suining Sichuan,CHN,Thai Canal,0.67,0.4,617773
+580,Yibin,CHN,Thai Canal,0.67,0.5,735307
+581,Dujiangyan,CHN,Thai Canal,0.67,0.2,347204
+582,Nanchong,CHN,Thai Canal,0.67,0.7,1052987
+583,Daqing,CHN,Thai Canal,0.67,1.1,1625765
+584,Chengdu,CHN,Thai Canal,0.67,5.6,8360286
+585,Qiqihaer,CHN,Thai Canal,0.67,1.0,1454523
+586,Shizuishan,CHN,Thai Canal,0.67,0.3,454019
+587,Zigong,CHN,Thai Canal,0.67,0.5,698978
+588,Longchang,CHN,Thai Canal,0.67,0.2,340195
+589,Mianyang Sichuan,CHN,Thai Canal,0.67,0.8,1160728
+590,Ziyang,CHN,Thai Canal,0.67,0.3,431948
+591,Deyang,CHN,Thai Canal,0.67,0.5,717427
+592,Meishan,CHN,Thai Canal,0.67,0.4,596953
+593,Jianyang,CHN,Thai Canal,0.67,0.3,420025
+594,Neijiang,CHN,Thai Canal,0.67,0.4,613831
+595,Bazhong,CHN,Thai Canal,0.67,0.5,682071
+596,Leshan,CHN,Thai Canal,0.67,0.5,814170
+597,Yaan,CHN,Thai Canal,0.67,0.2,305371
+598,Guangyuan,CHN,Thai Canal,0.66,0.3,451042
+599,Szczecin,POL,Thai Canal,0.66,0.3,406291
+600,Zagreb,HRV,Thai Canal,0.65,0.4,686652
+601,Jiuquan,CHN,Thai Canal,0.63,0.2,310985
+602,Chelyabinsk,RUS,Central Rail Corridor,0.63,0.7,1181855
+603,Hami,CHN,Thai Canal,0.61,0.2,350521
+604,Astana,KAZ,Urumqi-Khorgos rail,0.55,0.5,893771
+605,Sankt Peterburg (Saint Petersburg),RUS,Thai Canal,0.54,2.8,5181371
+606,Cherepovets,RUS,Thai Canal,0.54,0.2,317257
+607,Tver,RUS,Thai Canal,0.54,0.2,415495
+608,Vologda,RUS,Thai Canal,0.54,0.2,310250
+609,Moskva (Moscow)-Balashikha,RUS,Thai Canal,0.54,6.7,12472255
+610,Arkhangelsk,RUS,Thai Canal,0.54,0.2,350832
+611,Yaroslavl,RUS,Thai Canal,0.54,0.3,604022
+612,Tula,RUS,Thai Canal,0.53,0.3,489033
+613,Ryazan,RUS,Thai Canal,0.53,0.3,534522
+614,Vladimir,RUS,Thai Canal,0.53,0.2,353526
+615,Orel,RUS,Thai Canal,0.53,0.2,318418
+616,Ivanovo,RUS,Thai Canal,0.53,0.2,407271
+617,Kaluga,RUS,Thai Canal,0.53,0.2,337650
+618,Kursk,RUS,Thai Canal,0.53,0.2,440614
+619,Bryansk,RUS,Thai Canal,0.53,0.2,408753
+620,Lipetsk,RUS,Thai Canal,0.53,0.3,510063
+621,Belgorod,RUS,Thai Canal,0.53,0.2,382433
+622,Voronezh,RUS,Thai Canal,0.53,0.5,1023832
+623,Smolensk,RUS,Thai Canal,0.53,0.2,329127
+624,Nizhniy Novgorod,RUS,Thai Canal,0.53,0.7,1258984
+625,Rostov-na-Donu (Rostov-on-Don),RUS,Thai Canal,0.53,0.6,1116471
+626,Krasnodar,RUS,Thai Canal,0.53,0.4,846318
+627,Stavropol,RUS,Thai Canal,0.53,0.2,424827
+628,Saratov,RUS,Thai Canal,0.53,0.4,843504
+629,Vladikavkaz,RUS,Thai Canal,0.53,0.2,308112
+630,Makhachkala,RUS,Thai Canal,0.53,0.3,587850
+631,Penza,RUS,Thai Canal,0.53,0.3,522167
+632,Volgograd-Volzhsky,RUS,Thai Canal,0.53,0.7,1340105
+633,Sochi,RUS,Thai Canal,0.53,0.2,393866
+634,Saransk,RUS,Thai Canal,0.53,0.2,310494
+635,Astrakhan,RUS,Thai Canal,0.52,0.3,529535
+636,Cheboksary,RUS,Thai Canal,0.52,0.3,480591
+637,Tolyatti,RUS,Thai Canal,0.52,0.4,712750
+638,Kaliningrad Kaliningrad Oblast,RUS,Thai Canal,0.51,0.2,458470
+639,Sukkur,PAK,Karachi-Hyderabad-Lahore-Peshawar rail upgrade,0.51,0.2,481547
+640,Quetta,PAK,Karachi-Hyderabad-Lahore-Peshawar rail upgrade,0.5,0.5,950506
+641,Samara,RUS,Thai Canal,0.49,0.6,1168499
+642,Magnitogorsk,RUS,Central Rail Corridor,0.49,0.2,415684
+643,Yekaterinburg,RUS,Central Rail Corridor,0.48,0.7,1429193
+644,Nizhny Tagil,RUS,Central Rail Corridor,0.48,0.2,357164
+645,Perm,RUS,Thai Canal,0.48,0.5,1033959
+646,Izhevsk,RUS,Thai Canal,0.48,0.3,641741
+647,Orenburg,RUS,Thai Canal,0.46,0.3,560502
+648,Baharampur,IND,Kunming-Calcutta HSR,0.46,0.2,349166
+649,Dhulian,IND,Kunming-Calcutta HSR,0.46,0.1,302387
+650,Santipur,IND,Kunming-Calcutta HSR,0.46,0.1,324232
+651,Barddhaman,IND,Kunming-Calcutta HSR,0.46,0.2,376993
+652,English Bazar,IND,Kunming-Calcutta HSR,0.46,0.2,362681
+653,Bhagalpur,IND,Kunming-Calcutta HSR,0.46,0.2,442427
+654,Purnia,IND,Kunming-Calcutta HSR,0.46,0.2,381803
+655,Siliguri,IND,Kunming-Calcutta HSR,0.46,0.4,839606
+656,Bucuresti (Bucharest),ROU,Thai Canal,0.45,0.8,1848922
+657,Asansol,IND,Kunming-Calcutta HSR,0.45,0.6,1328473
+658,Durgapur-Raniganj,IND,Kunming-Calcutta HSR,0.45,0.4,925721
+659,Iasi,ROU,Thai Canal,0.45,0.1,318286
+660,Ufa,RUS,Thai Canal,0.45,0.5,1102438
+661,Begusarai,IND,Kunming-Calcutta HSR,0.45,0.2,337361
+662,Cluj-Napoca,ROU,Thai Canal,0.45,0.1,304931
+663,Timisoara,ROU,Thai Canal,0.45,0.1,306624
+664,Darbhanga,IND,Kunming-Calcutta HSR,0.42,0.1,327505
+665,Muzaffarpur,IND,Kunming-Calcutta HSR,0.42,0.2,444062
+666,Chiang Rai,THA,Highway AH3,0.41,0.2,503165
+667,Bihar Sharif,IND,Kunming-Calcutta HSR,0.41,0.1,330942
+668,Aktyubinsk,KAZ,Thai Canal,0.41,0.2,396862
+669,Patna,IND,Kunming-Calcutta HSR,0.41,0.9,2223111
+670,Gorakhpur,IND,Kunming-Calcutta HSR,0.41,0.3,723908
+671,Maunath Bhanjan,IND,Kunming-Calcutta HSR,0.41,0.1,313435
+672,Bahawalpur,PAK,Karachi-Hyderabad-Lahore-Peshawar rail upgrade,0.4,0.3,719922
+673,Multan,PAK,Karachi-Hyderabad-Lahore-Peshawar rail upgrade,0.4,0.7,1796431
+674,Kolkata (Calcutta),IND,Kunming-Calcutta HSR,0.4,5.8,14422670
+675,Habra,IND,Kunming-Calcutta HSR,0.4,0.1,321730
+676,Dera Ghazikhan,PAK,Karachi-Hyderabad-Lahore-Peshawar rail upgrade,0.4,0.1,373087
+677,Rahim Yar Khan,PAK,Karachi-Hyderabad-Lahore-Peshawar rail upgrade,0.4,0.2,398083
+678,Herat,AFG,Tehran-Mashhad rail electrification,0.39,0.2,466703
+679,Larkana,PAK,Karachi-Hyderabad-Lahore-Peshawar rail upgrade,0.38,0.2,461131
+680,Mardan,PAK,Karachi-Hyderabad-Lahore-Peshawar rail upgrade,0.37,0.1,346518
+681,Peshawar,PAK,Karachi-Hyderabad-Lahore-Peshawar rail upgrade,0.37,0.7,1852022
+682,Dhanbad,IND,Kunming-Calcutta HSR,0.36,0.5,1257814
+683,Plovdiv,BGR,Thai Canal,0.36,0.1,341806
+684,Gaya,IND,Kunming-Calcutta HSR,0.36,0.2,516094
+685,Sofia,BGR,Thai Canal,0.36,0.5,1255741
+686,Varna,BGR,Thai Canal,0.36,0.1,335014
+687,Varanasi (Benares),IND,Kunming-Calcutta HSR,0.34,0.5,1537379
+688,Bokaro Steel City,IND,Kunming-Calcutta HSR,0.31,0.2,595853
+689,Gomel,BLR,Thai Canal,0.3,0.2,523818
+690,Vitebsk,BLR,Thai Canal,0.3,0.1,365235
+691,Mogilev,BLR,Thai Canal,0.3,0.1,375711
+692,Minsk,BLR,Thai Canal,0.29,0.6,1945223
+693,Lampang,THA,Thai Canal,0.29,0.1,411229
+694,Grodno,BLR,Thai Canal,0.29,0.1,359722
+695,Brest,BLR,Thai Canal,0.29,0.1,336554
+696,Chiang Mai,THA,Thai Canal,0.29,0.3,1067668
+697,Orumiyeh,IRN,Thai Canal,0.28,0.2,718349
+698,Tabriz,IRN,Thai Canal,0.28,0.4,1542467
+699,Zanjan,IRN,Thai Canal,0.28,0.1,419381
+700,Sanandaj,IRN,Thai Canal,0.28,0.1,402678
+701,Tehran-Eslamshahr-Qods,IRN,Thai Canal,0.28,2.6,9290466
+702,Karaj,IRN,Thai Canal,0.28,0.4,1598015
+703,Ardabil,IRN,Thai Canal,0.28,0.1,517242
+704,Sari,IRN,Thai Canal,0.28,0.1,306403
+705,Kermanshah,IRN,Thai Canal,0.28,0.3,921805
+706,Hamadan,IRN,Thai Canal,0.28,0.2,547087
+707,Qazvin,IRN,Thai Canal,0.28,0.1,397336
+708,Gorgan,IRN,Thai Canal,0.28,0.1,345250
+709,Khorramabad,IRN,Thai Canal,0.28,0.1,366929
+710,Rasht,IRN,Thai Canal,0.28,0.2,669722
+711,Rawalpindi-Islamabad-Wah,PAK,Karachi-Hyderabad-Lahore-Peshawar rail upgrade,0.27,0.9,3339605
+712,Mymensingh,BGD,Kunming-Calcutta HSR,0.27,0.1,428976
+713,Beograd (Belgrade),SRB,Thai Canal,0.26,0.4,1369401
+714,Dhaka-Rupganj,BGD,Kunming-Calcutta HSR,0.26,4.6,17899005
+715,Barisal,BGD,Kunming-Calcutta HSR,0.26,0.1,407960
+716,Bogra,BGD,Kunming-Calcutta HSR,0.25,0.1,564829
+717,Khulna,BGD,Kunming-Calcutta HSR,0.25,0.3,1019725
+718,Rajshahi,BGD,Kunming-Calcutta HSR,0.25,0.2,843325
+719,Sarajevo,BIH,Thai Canal,0.24,0.1,342373
+720,Skopje,MKD,Thai Canal,0.24,0.1,559726
+721,Kandahar,AFG,Tehran-Mashhad rail electrification,0.24,0.1,436741
+722,Colombo,LKA,Thai Canal,0.23,0.1,581107
+723,Andizhan,UZB,Kashgar-Tashkent rail,0.21,0.1,413257
+724,Tiranë (Tirana),ALB,Thai Canal,0.21,0.1,449298
+725,Namangan,UZB,Highway A2,0.2,0.1,489379
+726,Kabul,AFG,Karachi-Hyderabad-Lahore-Peshawar rail upgrade,0.19,0.7,3723543
+727,Karachi,PAK,Karachi-Hyderabad-Lahore-Peshawar rail upgrade,0.18,2.6,14289160
+728,Hà Noi,VNM,Thai Canal,0.18,0.7,3657210
+729,Hai Phòng,VNM,Thai Canal,0.18,0.2,1083103
+730,Agartala,IND,Kunming-Calcutta HSR,0.17,0.1,474681
+731,Aizawl,IND,Kunming-Calcutta HSR,0.17,0.1,327141
+732,Shillong,IND,Kunming-Calcutta HSR,0.17,0.1,400832
+733,Guwahati (Gauhati),IND,Kunming-Calcutta HSR,0.17,0.2,1032112
+734,Imphal,IND,Kunming-Calcutta HSR,0.17,0.1,486507
+735,Mazar-e Sharif,AFG,Karachi-Hyderabad-Lahore-Peshawar rail upgrade,0.17,0.1,389483
+736,Ranchi,IND,Kunming-Calcutta HSR,0.17,0.2,1264445
+737,Jamshedpur,IND,Kunming-Calcutta HSR,0.17,0.2,1456089
+738,Kharagpur,IND,Kunming-Calcutta HSR,0.17,0.1,312115
+739,Lucknow,IND,Kunming-Calcutta HSR,0.17,0.5,3244671
+740,Allahabad,IND,Kunming-Calcutta HSR,0.17,0.2,1294529
+741,Johor Bahru,MYS,Bangkok-Pedang Besar-Kuala Lumpur rail,0.17,0.2,913127
+742,Shahjahanpur,IND,Kunming-Calcutta HSR,0.17,0.1,359747
+743,Bareilly,IND,Kunming-Calcutta HSR,0.17,0.2,1104650
+744,Kanpur,IND,Kunming-Calcutta HSR,0.17,0.5,3014060
+745,Moradabad-Rampur,IND,Kunming-Calcutta HSR,0.17,0.2,1405612
+746,Farrukhabad,IND,Kunming-Calcutta HSR,0.17,0.1,315232
+747,Hardwar,IND,Kunming-Calcutta HSR,0.17,0.1,360457
+748,Dehradun,IND,Kunming-Calcutta HSR,0.17,0.1,799453
+749,Saharanpur-Yamunanagar,IND,Kunming-Calcutta HSR,0.17,0.2,1266194
+750,Kathmandu,NPL,Kunming-Calcutta HSR,0.16,0.2,1179009
+751,Pokhara,NPL,Kunming-Calcutta HSR,0.16,0.1,327710
+752,Chandigarh,IND,Kunming-Calcutta HSR,0.16,0.2,1050593
+753,Ludhiana,IND,Kunming-Calcutta HSR,0.16,0.3,1726728
+754,Jalandhar,IND,Kunming-Calcutta HSR,0.16,0.1,954651
+755,Amritsar,IND,Kunming-Calcutta HSR,0.16,0.2,1271078
+756,Jammu,IND,Kunming-Calcutta HSR,0.16,0.1,677903
+757,Srinagar,IND,Kunming-Calcutta HSR,0.16,0.2,1406630
+758,Tashkent,UZB,Highway A2,0.15,0.4,2379149
+759,Chita,RUS,Kuantan Port,0.15,0.1,341468
+760,Samarkand,UZB,Highway A2,0.15,0.1,512730
+761,Meerut,IND,Kunming-Calcutta HSR,0.15,0.2,1544532
+762,Muzaffarnagar,IND,Kunming-Calcutta HSR,0.15,0.1,589738
+763,Patiala,IND,Kunming-Calcutta HSR,0.14,0.1,512742
+764,Bathinda,IND,Kunming-Calcutta HSR,0.13,0.0,321848
+765,Kharkiv,UKR,Thai Canal,0.13,0.2,1442204
+766,Luhansk,UKR,Thai Canal,0.13,0.1,418116
+767,Donetsk-Makiivka,UKR,Thai Canal,0.13,0.2,1286773
+768,Mariupol,UKR,Thai Canal,0.13,0.1,453500
+769,Kyiv (Kiev),UKR,Thai Canal,0.13,0.4,2894942
+770,Zaporizhzhya,UKR,Thai Canal,0.13,0.1,756410
+771,Dnipro,UKR,Thai Canal,0.13,0.1,984103
+772,Kryvyi Rih,UKR,Thai Canal,0.13,0.1,643499
+773,Vinnitsa,UKR,Thai Canal,0.13,0.0,371091
+774,Lviv,UKR,Thai Canal,0.13,0.1,729195
+775,Mykolaiv,UKR,Thai Canal,0.13,0.1,493013
+776,Odesa,UKR,Thai Canal,0.13,0.1,1010377
+777,Sevastopol,UKR,Thai Canal,0.13,0.0,377269
+778,Simferopol,UKR,Thai Canal,0.13,0.0,341211
+779,Aligarh,IND,Kunming-Calcutta HSR,0.13,0.1,1041751
+780,Bishkek,KGZ,Urumqi-Khorgos road,0.13,0.1,936223
+781,Delhi,IND,Kunming-Calcutta HSR,0.11,3.0,25865875
+782,Rohtak,IND,Kunming-Calcutta HSR,0.11,0.0,415233
+783,Panipat,IND,Kunming-Calcutta HSR,0.11,0.1,490546
+784,Karnal,IND,Kunming-Calcutta HSR,0.11,0.0,345837
+785,Alwar,IND,Kunming-Calcutta HSR,0.11,0.0,380309
+786,Hisar,IND,Kunming-Calcutta HSR,0.11,0.0,328225
+787,Okara,PAK,N5 Road,0.11,0.0,339899
+788,Agra,IND,Kunming-Calcutta HSR,0.11,0.2,1959524
+789,Firozabad,IND,Kunming-Calcutta HSR,0.11,0.1,698177
+790,Mathura,IND,Kunming-Calcutta HSR,0.11,0.1,514589
+791,Sahiwal,PAK,N5 Road,0.11,0.0,368222
+792,Thoothukkudi (Tuticorin),IND,Thai Canal,0.11,0.1,476277
+793,Chennai (Madras),IND,Thai Canal,0.11,1.0,9677072
+794,Puducherry,IND,Thai Canal,0.11,0.1,736102
+795,Vellore-Ranipet,IND,Thai Canal,0.11,0.1,826780
+796,Tirupati,IND,Thai Canal,0.11,0.1,554098
+797,Nellore,IND,Thai Canal,0.11,0.1,642206
+798,Salem,IND,Thai Canal,0.11,0.1,1000304
+799,Kadapa,IND,Thai Canal,0.11,0.0,388208
+800,Erode,IND,Thai Canal,0.11,0.1,572383
+801,Tiruppur,IND,Thai Canal,0.11,0.1,1185629
+802,Coimbatore,IND,Thai Canal,0.11,0.3,2421666
+803,Thanjavur,IND,Thai Canal,0.11,0.0,311824
+804,Tiruchirappalli,IND,Thai Canal,0.11,0.1,1087049
+805,Hosur,IND,Thai Canal,0.11,0.0,329524
+806,Bangalore,IND,Thai Canal,0.11,1.1,10141080
+807,Palakkad,IND,Thai Canal,0.11,0.0,326338
+808,Tumkur,IND,Thai Canal,0.11,0.0,328610
+809,Dindigul,IND,Thai Canal,0.11,0.0,333249
+810,Mysore,IND,Thai Canal,0.11,0.1,1088564
+811,Madurai,IND,Thai Canal,0.11,0.2,1586395
+812,Vijayawada-Guntur,IND,Thai Canal,0.11,0.3,2471161
+813,Thrissur,IND,Thai Canal,0.11,0.3,2356160
+814,Bellary,IND,Thai Canal,0.11,0.0,459224
+815,Kurnool,IND,Thai Canal,0.11,0.1,562470
+816,Malappuram,IND,Thai Canal,0.11,0.3,2354199
+817,Kozhikode (Calicut),IND,Thai Canal,0.11,0.3,2643279
+818,Anantapur,IND,Thai Canal,0.11,0.0,387930
+819,Kakinada,IND,Thai Canal,0.11,0.1,475203
+820,Rajahmundry,IND,Thai Canal,0.11,0.1,507216
+821,Warangal,IND,Thai Canal,0.11,0.1,844401
+822,Tirunelveli,IND,Thai Canal,0.11,0.1,528671
+823,Shimoga,IND,Thai Canal,0.11,0.0,346143
+824,Kannur,IND,Thai Canal,0.11,0.2,1870702
+825,Kayamkulam,IND,Thai Canal,0.11,0.1,537907
+826,Kollam,IND,Thai Canal,0.11,0.2,1413469
+827,Kochi (Cochin)-Cherthala-Kottayam,IND,Thai Canal,0.11,0.4,3599888
+828,Mangalore,IND,Thai Canal,0.11,0.1,664440
+829,Hyderabad India,IND,Thai Canal,0.11,0.9,8697166
+830,Davanagere,IND,Thai Canal,0.11,0.1,469590
+831,Visakhapatnam,IND,Thai Canal,0.11,0.2,1925861
+832,Karimnagar,IND,Thai Canal,0.11,0.0,340127
+833,Thiruvananthapuram,IND,Thai Canal,0.11,0.2,2058364
+834,Chandrapur,IND,Thai Canal,0.11,0.0,334791
+835,Brahmapur,IND,Thai Canal,0.11,0.0,380089
+836,Nizamabad,IND,Thai Canal,0.11,0.0,321407
+837,Nagpur,IND,Thai Canal,0.11,0.3,2676720
+838,Amravati,IND,Thai Canal,0.11,0.1,694547
+839,Akola,IND,Thai Canal,0.11,0.0,437275
+840,Belgaum,IND,Thai Canal,0.11,0.1,661750
+841,Hubli-Dharwad,IND,Thai Canal,0.11,0.1,1021562
+842,Solapur,IND,Thai Canal,0.11,0.1,988027
+843,Nanded Waghala,IND,Thai Canal,0.11,0.1,612167
+844,Gulbarga,IND,Thai Canal,0.11,0.1,600859
+845,Parbhani,IND,Thai Canal,0.11,0.0,330558
+846,Durg-Bhilainagar,IND,Thai Canal,0.11,0.1,1129385
+847,Raipur,IND,Thai Canal,0.11,0.1,1343744
+848,Bijapur,IND,Thai Canal,0.11,0.0,365592
+849,Latur,IND,Thai Canal,0.11,0.0,425685
+850,Sangli-Ichalkaranji,IND,Thai Canal,0.11,0.1,889956
+851,Jalgaon,IND,Thai Canal,0.11,0.1,506703
+852,Kolhapur,IND,Thai Canal,0.11,0.1,588142
+853,Bilaspur,IND,Thai Canal,0.11,0.1,517647
+854,Pune (Poona),IND,Thai Canal,0.11,0.6,5745577
+855,Jabalpur,IND,Thai Canal,0.11,0.1,1350926
+856,Dhule,IND,Thai Canal,0.11,0.0,391231
+857,Raurkela,IND,Thai Canal,0.11,0.1,584273
+858,Korba,IND,Thai Canal,0.11,0.0,389086
+859,Bhubaneswar-Cuttack,IND,Thai Canal,0.11,0.2,1705879
+860,Bhiwandi,IND,Thai Canal,0.11,0.1,791515
+861,Mumbai (Bombay),IND,Thai Canal,0.11,2.0,19315737
+862,Jalna,IND,Thai Canal,0.11,0.0,310298
+863,Aurangabad,IND,Thai Canal,0.11,0.1,1353181
+864,Malegaon,IND,Thai Canal,0.11,0.1,638366
+865,Ahmadnagar,IND,Thai Canal,0.11,0.0,391068
+866,Bhopal,IND,Thai Canal,0.11,0.2,2108487
+867,Indore,IND,Thai Canal,0.11,0.3,2534783
+868,Dewas,IND,Thai Canal,0.11,0.0,318932
+869,Ujjain,IND,Thai Canal,0.11,0.1,556561
+870,Sagar,IND,Thai Canal,0.11,0.0,400416
+871,Surat-Navsari,IND,Thai Canal,0.11,0.6,5978818
+872,Nashik,IND,Thai Canal,0.11,0.2,1781817
+873,Vadodara,IND,Thai Canal,0.11,0.2,1986946
+874,Anand,IND,Thai Canal,0.11,0.0,324787
+875,Satna,IND,Thai Canal,0.11,0.0,309980
+876,Jhansi,IND,Thai Canal,0.11,0.1,590481
+877,Ahmadabad,IND,Thai Canal,0.11,0.8,7109286
+878,Kota,IND,Thai Canal,0.11,0.1,1167746
+879,Gwalior,IND,Thai Canal,0.11,0.1,1225020
+880,Bhilwara,IND,Thai Canal,0.11,0.0,400521
+881,Udaipur,IND,Thai Canal,0.11,0.1,516967
+882,Jaipur,IND,Thai Canal,0.11,0.4,3426127
+883,Bhavnagar,IND,Thai Canal,0.11,0.1,648622
+884,Rajkot,IND,Thai Canal,0.11,0.2,1602214
+885,Ajmer,IND,Thai Canal,0.11,0.1,579629
+886,Junagadh,IND,Thai Canal,0.11,0.0,353985
+887,Gandhidham,IND,Thai Canal,0.11,0.0,306875
+888,Jamnagar,IND,Thai Canal,0.11,0.1,621071
+889,Jodhpur,IND,Thai Canal,0.11,0.1,1284850
+890,Bikaner,IND,Thai Canal,0.11,0.1,701553
+891,Sialkot,PAK,Karachi-Hyderabad-Lahore-Peshawar rail upgrade,0.1,0.1,629876
+892,Lahore,PAK,Kunming-Calcutta HSR,0.1,1.0,10369137
+893,Sheikhupura,PAK,Kunming-Calcutta HSR,0.1,0.0,450235
+894,Kasur,PAK,Kunming-Calcutta HSR,0.1,0.0,345982
+895,Gujranwala,PAK,Kunming-Calcutta HSR,0.1,0.2,1922890
+896,Rangpur,BGD,Kunming-Calcutta HSR,0.1,0.0,369978
+897,Gujrat,PAK,Kunming-Calcutta HSR,0.1,0.0,375279
+898,Sargodha,PAK,Kunming-Calcutta HSR,0.1,0.1,638309
+899,Faisalabad,PAK,Kunming-Calcutta HSR,0.1,0.3,3068364
+900,Jhang,PAK,Kunming-Calcutta HSR,0.1,0.0,401403
+901,Chişinău,MDA,Thai Canal,0.09,0.0,526146
+902,Yangon,MMR,Thai Canal,0.08,0.4,4851365
+903,Nay Pyi Taw,MMR,Thai Canal,0.08,0.0,375928
+904,Mandalay,MMR,Thai Canal,0.08,0.1,1267659
+905,Hyderabad Pakistan,PAK,Thai Canal,0.07,0.1,1670427
+906,Dushanbe,TJK,Highway A2,0.06,0.1,812352
+907,Chittagong,BGD,Thai Canal,0.04,0.2,4536155
+908,Comilla,BGD,Thai Canal,0.04,0.0,493405
+909,Sylhet,BGD,Thai Canal,0.04,0.0,671894

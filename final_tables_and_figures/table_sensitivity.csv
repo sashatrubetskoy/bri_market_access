@@ -1,0 +1,15 @@
+,Baseline,Labor market share β=0.8,"θ=8.11, for agriculture",No cost to switch between road and rail,Labor market share β=0,Add retail distribution costs,Halfway reduction in trade costs,"θ=15.72, for mining",No terminal handling charges,Using simple average tariff,Using population instead of GDP for market size,Oxford Economics GDP,ESCAP-WB tariffs and border costs,No tariffs or border costs
+Baseline,1.0,1.0,0.99,1.0,0.98,0.98,0.97,0.97,0.96,0.94,0.91,0.91,0.85,0.85
+Labor market share β=0.8,1.0,1.0,1.0,0.99,0.98,0.98,0.98,0.97,0.96,0.95,0.92,0.91,0.85,0.85
+"θ=8.11, for agriculture",0.99,1.0,1.0,0.99,0.98,0.98,0.98,0.98,0.96,0.94,0.92,0.92,0.85,0.85
+No cost to switch between road and rail,1.0,0.99,0.99,1.0,0.98,0.98,0.97,0.97,0.96,0.94,0.92,0.91,0.85,0.85
+Labor market share β=0,0.98,0.98,0.98,0.98,1.0,0.97,0.96,0.97,0.94,0.93,0.93,0.93,0.87,0.87
+Add retail distribution costs,0.98,0.98,0.98,0.98,0.97,1.0,0.96,0.96,0.95,0.96,0.9,0.89,0.86,0.86
+Halfway reduction in trade costs,0.97,0.98,0.98,0.97,0.96,0.96,1.0,0.96,0.95,0.92,0.89,0.89,0.83,0.83
+"θ=15.72, for mining",0.97,0.97,0.98,0.97,0.97,0.96,0.96,1.0,0.93,0.92,0.92,0.92,0.83,0.83
+No terminal handling charges,0.96,0.96,0.96,0.96,0.94,0.95,0.95,0.93,1.0,0.92,0.86,0.86,0.81,0.81
+Using simple average tariff,0.94,0.95,0.94,0.94,0.93,0.96,0.92,0.92,0.92,1.0,0.88,0.86,0.83,0.83
+Using population instead of GDP for market size,0.91,0.92,0.92,0.92,0.93,0.9,0.89,0.92,0.86,0.88,1.0,0.97,0.83,0.85
+Oxford Economics GDP,0.91,0.91,0.92,0.91,0.93,0.89,0.89,0.92,0.86,0.86,0.97,1.0,0.85,0.85
+ESCAP-WB tariffs and border costs,0.85,0.85,0.85,0.85,0.87,0.86,0.83,0.83,0.81,0.83,0.83,0.85,1.0,0.99
+No tariffs or border costs,0.85,0.85,0.85,0.85,0.87,0.86,0.83,0.83,0.81,0.83,0.85,0.85,0.99,1.0

@@ -1,0 +1,11 @@
+,Parameter name,Explanation,Value
+Freight rates,"Road, low quality",Single carriageway,0.85
+(USD/TEU/km),"Road, high quality",Motorway or dual carriageway,0.63
+,"Rail, low quality","Single-track, not electrified",0.47
+,"Rail, high quality",Double track or electrified,0.23
+,Sea,Maritime shipping route,0.04
+
+Other parameters,Theta,Intercity trade elasticity,5.03
+,Alpha,Share of income paid to land,0.05
+,Beta,Labor share of market,0.65
+,Switching cost,Cost to switch between road and rail (USD),25

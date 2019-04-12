@@ -1,0 +1,9 @@
+Estimated cost (USD/TEU/km)
+,Road,Road,Rail,Rail,Sea,Sea
+Ref.,Lower,Upper,Lower,Upper,Lower,Upper
+Emerson (2009),nan,nan,0.47,0.47,0.07,0.73
+Rodemann (2014),0.66,0.78,0.39,0.53,nan,nan
+Seo (2017),0.52,0.54,0.23,0.45,0.03,0.04
+Sladkowski (2015),0.6,1.78,0.23,0.56,0.04,0.7
+Sun (2017),0.84,0.92,0.14,0.25,nan,nan
+Median,0.63,0.85,0.23,0.47,,0.04
