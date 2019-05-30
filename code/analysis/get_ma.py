@@ -1,5 +1,5 @@
 # Alexandr (Sasha) Trubetskoy
-# February 2019
+# May 2019
 # trub@uchicago.edu
 
 import time
@@ -23,6 +23,7 @@ parser.add_argument('--outfile', '-o', help='Set output location', type=str, def
 parser.add_argument('--market_size', '-market_size', help='Set output location', type=str, default='Rough GDP 2015')
 parser.add_argument('--harris', '-harris', help='Calculate MA for Harris 1954-style market potential (theta=1)', action='store_true')
 parser.add_argument('--distribution_costs', '-distribution_costs', help='Add retail and wholesale distribution costs', action='store_true')
+parser.add_argument('--add_externals', '-add_externals', help='Add external markets', action='store_true')
 parser.add_argument('--theta', '-t', help='theta (trade elasticity)', type=float, default=PARAMS['theta'])
 parser.add_argument('--alpha', '-a', help='alpha (land rents paid to GDP)', type=float, default=PARAMS['alpha'])
 parser.add_argument('--beta', '-b', help='beta (labor market share)', type=float, default=PARAMS['beta'])
@@ -33,6 +34,7 @@ if args.harris:
 # 0. Make assumptions, set file names
 #---------------------------------------------------
 CITIES_CSV = 'data/csv/cities.csv'
+EXTERNAL_SIZES_CSV = 'data/csv/externals_sizes.csv'
 UNIQUE_FIELD = 'ID'
 MARKET_SIZE = args.market_size
 logger.info('File will export to {}.'.format(args.outfile))
@@ -56,7 +58,7 @@ def read_cost_matrix(filename=args.infile):
 def read_cities_and_externals():
     logger.info('Reading cities...')
     cities = pd.read_csv(CITIES_CSV)
-    externals = {}
+    externals = pd.read_csv(EXTERNAL_SIZES_CSV).set_index('market')
     return cities, externals
 #---------------------------------------------------
 
@@ -67,13 +69,16 @@ def calc_market_access(city_i, cost_matrix, cities, externals):
     FMA, CMA = 0, 0
 
     # First get external market terms
-    if externals:
-        for ext in externals:
+    if args.add_externals:
+        for ext in externals.index:
             travel_cost_id = cost_matrix.loc[city_i][ext] # Cost to export from i -> d
             travel_cost_oi = cost_matrix.loc[ext][city_i] # Cost to import from o -> i
 
-            FMA = (1/travel_cost_id)**theta * externals[ext][MARKET_SIZE] # Firm Market Access
-            CMA = (1/travel_cost_oi)**theta * externals[ext][MARKET_SIZE] # Consumer Market Access
+            di = PARAMS['distribution_cost'] if args.distribution_costs else 1.0
+            FMA += externals.loc[ext, 'market_size'] * ((travel_cost_id + 1)*di)**(-args.theta) # Firm Market Access
+            CMA += externals.loc[ext, 'market_size'] * ((travel_cost_oi + 1)*di)**(-args.theta) # Consumer Market Access
+            with open('test.txt', 'w') as f:
+                f.write('{}, {}\n'.format(FMA, CMA))
 
     # Then add terms for all other cities as in Donaldson & Hornbeck 2016
     t0 = time.time()

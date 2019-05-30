@@ -1,5 +1,5 @@
 # Alexandr (Sasha) Trubetskoy
-# February 2019
+# May 2019
 # trub@uchicago.edu
 
 import argparse
@@ -33,6 +33,7 @@ parser.add_argument('--harris',         '-harris', help='Calculate costs for Har
 parser.add_argument('--escap_wb',       '-escap_wb', help='Use ESCAP-WB international trade costs', action='store_true')
 parser.add_argument('--avg_tariff',     '-avg_tariff', help='Use simple average tariff', action='store_true')
 parser.add_argument('--no_intl_cost',   '-no_intl_cost', help='No tariffs or border costs', action='store_true')
+parser.add_argument('--add_externals',  '-add_externals', help='Add external markets', action='store_true')
 # Allows user to individually override default cost matrix parameters
 parser.add_argument('--shipment_usd_value', '-usd_value', help='Shipment value, USD', type=int, default=PARAMS['shipment_usd_value'])
 parser.add_argument('--shipment_time_value', '-time_value', help='Shipment value, hours', type=int, default=PARAMS['shipment_time_value'])
@@ -55,12 +56,12 @@ ESCAP_WB = np.genfromtxt('parameters/escap_wb_matrix.csv', delimiter=',')
 IDX = pickle.load(open('data/other/raw_escap_data/index_converter.p', 'rb'))
 
 CITIES_CSV = 'data/csv/cities.csv'
+EXTERNAL_LINKS_CSV = 'data/csv/externals_links.csv'
 ROAD_FILE = 'data/geojson/roads_'+args.network_suffix+'.geojson'
 RAIL_FILE = 'data/geojson/rails_'+args.network_suffix+'.geojson'
 SEA_FILE = 'data/geojson/sea_'+args.network_suffix+'.geojson'
 # PORTS_FILE = 'data/geojson/ports.geojson'
 # BCROSS_FILE = args.bcross_file
-# EXTERNAL_TSV = None
 if args.time:
     TCOST = pd.read_csv('parameters/transport_speeds'+args.tcost_suffix+'.csv').set_index('class')
     TCOST['cost_per_km'] = 1 / TCOST['km_per_hour'] # Convert to hours per km
@@ -375,13 +376,67 @@ def create_sea_transfers(cities, G):
 #---------------------------------------------------
 
 
-# 7. Run cost matrix calculation
+# 7. Create external market links
+#---------------------------------------------------
+def create_external_market_links(G):
+    logger.info('7. Creating external market links...')
+    ext = pd.read_csv(EXTERNAL_LINKS_CSV)
+    sea_edges = [e for e in G.edges if G[e[0]][e[1]]['quality']=='Sea link']
+    hwy_edges = [e for e in G.edges if 'highway' in G[e[0]][e[1]]['quality']]
+    sea_nodes = set()
+    for e in sea_edges:
+        sea_nodes.add(e[0])
+        sea_nodes.add(e[1])
+    hwy_nodes = set()
+    for e in hwy_edges:
+        hwy_nodes.add(e[0])
+        hwy_nodes.add(e[1])
+    sea_nodes = list(sea_nodes)
+    hwy_nodes = list(hwy_nodes)
+
+    for i, link in ext.iterrows():
+        point = (link['from_lon'], link['from_lat']) # (X, Y) or (Lon, Lat)
+        if link['quality'] == 'Sea link':
+            u = tuple(sea_nodes[spatial.KDTree(np.array([(n[0], n[1]) for n in sea_nodes], dtype=np.float64)).query(point)[1]])
+        if link['quality'] == 'Undivided highway':
+            u = tuple(hwy_nodes[spatial.KDTree(np.array([(n[0], n[1]) for n in hwy_nodes], dtype=np.float64)).query(point)[1]])
+        v = (link['to_name'])
+
+        G.add_edge(u, v,
+            length=link['length']*1000,
+            project='all',
+            quality=link['quality'],
+            cost=TCOST[link['quality']] * link['length'])
+        G.add_edge(v, u,
+            length=link['length']*1000,
+            project='all',
+            quality=link['quality'],
+            cost=TCOST[link['quality']] * link['length'])
+    logger.info('Sea transfers created.')
+    return G
+#---------------------------------------------------
+
+
+# 8. Run cost matrix calculation
 #---------------------------------------------------
 def get_cost_matrix(cities, G):
     all_cities = cities['ID'].tolist() # Field just needs to be a unique ID
     country_of = cities.set_index('nearest_any').to_dict()['iso3']
     nearest_node = cities.set_index('ID').to_dict()['nearest_any']
     matrix_dict = dict()
+
+    all_externals = []
+    if args.add_externals:
+        df_ext = pd.read_csv(EXTERNAL_LINKS_CSV).groupby(['to_name', 'tariff_iso3']).size().reset_index().set_index('to_name')
+        all_externals = df_ext.index.tolist()
+        all_cities += all_externals # Add external markets to list of cities
+        for ext in all_externals:
+            country_of[ext] = df_ext.loc[ext, 'tariff_iso3'] # Make sure external markets have country_ofs
+            nearest_node[ext] = ext # Make sure external markets have nearest_nodes
+
+    # Remove external nodes when calculating costs between two non-external
+    # points. This solves the problem of illegal shortcuts via external markets.
+    H = G.subgraph([n for n in list(G.nodes) if (n) not in all_externals])
 
     counter = 0
     n_iter = len(all_cities)
@@ -396,29 +451,34 @@ def get_cost_matrix(cities, G):
             end='\r')
 
         city_a_node = nearest_node[city_a]
+
         costs, paths = nx.single_source_dijkstra(G, city_a_node, weight='cost')
+        if args.add_externals and city_a not in all_externals:
+            costs_ins, paths_ins = nx.single_source_dijkstra(H, city_a_node, weight='cost')
+        
         costs_cities = []
 
         for city_b in all_cities:
             if city_a == city_b:
                 costs_cities.append(0.0)
                 continue
+            
+            my_costs = costs
+            if (city_a not in all_externals) and (city_b not in all_externals):
+                    my_costs = costs_ins
 
             city_b_node = nearest_node[city_b]
             
             if args.time:
-                transport_cost = costs[city_b_node] / args.shipment_time_value
+                transport_cost = my_costs[city_b_node] / args.shipment_time_value
                 tariff = 0 # No tariffs if using time
             else:
                 # (Raw transport cost + border costs) / shipment value [ad valorem]
-                transport_cost = costs[city_b_node] / args.shipment_usd_value
+                transport_cost = my_costs[city_b_node] / args.shipment_usd_value
 
                 if args.escap_wb: # "tariff" using ESCAP-WB international trade costs.
                     tariff = ESCAP_WB[IDX[country_of[city_a_node]], IDX[country_of[city_b_node]]]
                 
-                if args.avg_tariff: # "tariff" using ESCAP-WB international trade costs.
-                    tariff = ESCAP_WB[IDX[country_of[city_a_node]], IDX[country_of[city_b_node]]]
-
                 else:
                     if (country_of[city_a_node] == country_of[city_b_node]) or args.no_intl_cost:
                         tariff = 0
@@ -455,7 +515,7 @@ def setup():
     G = create_border_crossings(road_nodes, G)
     G = create_road_rail_transfers(cities, G)
     G = create_sea_transfers(cities, G)
-    # G, externals = set_up_external_markets(ports, G)
+    G = create_external_market_links(G)
     # with open('edges.txt', 'w') as f:
     #     f.writelines([str(e)+'\n' for e in list(G.edges)])
     return road, rail, sea, G, cities
@@ -463,7 +523,7 @@ def setup():
 
 def main(road, rail, sea, G, cities):    
     logger.info('# of nodes: {}, # of edges: {}'.format(G.number_of_nodes(), G.number_of_edges()))
-    logger.info('7. Calculating cost matrices...')
+    logger.info('8. Calculating cost matrices...')
     cost_matrix = get_cost_matrix(cities, G)
 
     cost_matrix.to_csv(args.outfile)
