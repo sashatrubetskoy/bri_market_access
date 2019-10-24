@@ -38,7 +38,7 @@ It is important that the steps be followed in order, since each requires the res
 ## Step 0
 > Make sure you have doen this before starting the replication procedure.
 
-First, download the raw data by [clicking here](https://drive.google.com/open?id=1Vf128LuV_80CAubukTDQ9Mb-xls082RZ). Unzip the file, then move the folder `data` into the top-level, `bri_market_access` directory.
+First, download the raw data by [clicking here](https://drive.google.com/file/d/1I51AdsShCZbm1X9YMoMpA_aRWEuHJ0mA/). Unzip the file, then move the folder `data` into the top-level, `bri_market_access` directory.
 
 ## Step 1
 > ⏳ This step takes approximately **30 minutes** to run.
