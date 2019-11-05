@@ -23,7 +23,7 @@ The following non built-in python packages are required:
 |Statsmodels|0.9.0       |Runs regressions|
 |Seaborn  |0.9.0         |Runs nonparametric estimation|
 
-The above packages can all be installed using pip. For convenience, a script has been provided, which can be run from the `bri_ma_replication` directory:
+The above packages can all be installed using pip. For convenience, a script has been provided, which can be run from the `bri_market_access` directory:
 
 ```bash
 ./install_packages.sh
