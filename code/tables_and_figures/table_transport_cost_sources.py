@@ -25,7 +25,9 @@ EMERSON_DATA = {
 }
 emerson = pd.DataFrame.from_dict(EMERSON_DATA)
 emerson['Cost per km, USD'] = emerson['TEU cost, USD'] / emerson['Est dist, km']
-emerson_bounds = pd.concat([emerson.groupby('Mode').min()['Cost per km, USD'], emerson.groupby('Mode').max()['Cost per km, USD']], axis=1)
+mins = emerson.groupby('Mode')['Cost per km, USD'].min()
+maxs = emerson.groupby('Mode')['Cost per km, USD'].max()
+emerson_bounds = pd.concat([mins, maxs], axis=1)
 emerson_bounds.columns = ['lower', 'upper']
 emerson_bounds.index = ['Rail cost, USD/TEU/km', 'Sea cost, USD/TEU/km']
 
@@ -47,7 +49,10 @@ rodemann['Rail cost, USD/FEU/km'] = EUR_TO_USD_2014 * rodemann['Rail cost, EUR/F
 rodemann['Road cost, USD/FEU/km'] = EUR_TO_USD_2014 * rodemann['Road cost, EUR/FEU'] / rodemann['Median distance, km']
 rodemann['Rail cost, USD/TEU/km'] = rodemann['Rail cost, USD/FEU/km'] * FEU_TO_TEU
 rodemann['Road cost, USD/TEU/km'] = rodemann['Road cost, USD/FEU/km'] * FEU_TO_TEU
-rodemann_bounds = pd.concat([rodemann.min()[['Road cost, USD/TEU/km', 'Rail cost, USD/TEU/km']], rodemann.max()[['Road cost, USD/TEU/km', 'Rail cost, USD/TEU/km']]], axis=1)
+rodemann_bounds = pd.concat(
+    [rodemann[['Road cost, USD/TEU/km', 'Rail cost, USD/TEU/km']].min(), 
+     rodemann[['Road cost, USD/TEU/km', 'Rail cost, USD/TEU/km']].max()], 
+    axis=1)
 rodemann_bounds.columns = ['lower', 'upper']
 
 
@@ -64,7 +69,10 @@ SEO_DATA = {
 seo = pd.DataFrame.from_dict(SEO_DATA)
 seo['Cost, USD/FEU/km'] = seo['Cost, USD/FEU'] / seo['Distance, km']
 seo['Cost, USD/TEU/km'] = FEU_TO_TEU * seo['Cost, USD/FEU/km']
-seo_bounds = pd.concat([seo.groupby('Mode').min()['Cost, USD/TEU/km'], seo.groupby('Mode').max()['Cost, USD/TEU/km']], axis=1)
+seo_bounds = pd.concat(
+    [seo.groupby('Mode')['Cost, USD/TEU/km'].min(),
+     seo.groupby('Mode')['Cost, USD/TEU/km'].max()], 
+    axis=1)
 seo_bounds.columns = ['lower', 'upper']
 seo_bounds.index = ['Rail cost, USD/TEU/km', 'Road cost, USD/TEU/km', 'Sea cost, USD/TEU/km']
 
@@ -90,7 +98,10 @@ sladkowski['Cost, USD/TEU/km'] = FEU_TO_TEU * sladkowski['Cost, USD/FEU/km']
 usd_row = -sladkowski['Cost, USD/TEU'].isnull()
 sladkowski.loc[usd_row, 'Cost, USD/TEU/km'] = sladkowski.loc[usd_row, 'Cost, USD/TEU'] / sladkowski.loc[usd_row, 'Distance, km']
 
-sladkowski_bounds = pd.concat([sladkowski.groupby('Mode').min()['Cost, USD/TEU/km'], sladkowski.groupby('Mode').max()['Cost, USD/TEU/km']], axis=1)
+sladkowski_bounds = pd.concat(
+    [sladkowski.groupby('Mode')['Cost, USD/TEU/km'].min(),
+     sladkowski.groupby('Mode')['Cost, USD/TEU/km'].max()],
+    axis=1)
 sladkowski_bounds.columns = ['lower', 'upper']
 sladkowski_bounds.index = ['Rail cost, USD/TEU/km', 'Road cost, USD/TEU/km', 'Sea cost, USD/TEU/km']
 
@@ -115,7 +126,10 @@ empty_row = sun['Cost, RMB/TEU/km'].isnull()
 sun.loc[empty_row, 'Cost, RMB/TEU/km'] = sun['Cost, RMB/TEU'] / sun['Distance, km']
 sun['Cost, USD/TEU/km'] = RMB_TO_USD_2017 * sun['Cost, RMB/TEU/km']
 
-sun_bounds = pd.concat([sun.groupby('Mode').min()['Cost, USD/TEU/km'], sun.groupby('Mode').max()['Cost, USD/TEU/km']], axis=1)
+sun_bounds = pd.concat(
+    [sun.groupby('Mode')['Cost, USD/TEU/km'].min(),
+     sun.groupby('Mode')['Cost, USD/TEU/km'].max()],
+    axis=1)
 sun_bounds = sun_bounds.drop('Inland Waterway')
 sun_bounds.columns = ['lower', 'upper']
 sun_bounds.index = ['Rail cost, USD/TEU/km', 'Road cost, USD/TEU/km']
