@@ -464,7 +464,8 @@ def get_cost_matrix(cities, G):
                 continue
             
             my_costs = costs
-            if (city_a not in all_externals) and (city_b not in all_externals):
+            no_cities_are_external = (city_a not in all_externals) and (city_b not in all_externals)
+            if args.add_externals and no_cities_are_external:
                     my_costs = costs_ins
 
             city_b_node = nearest_node[city_b]

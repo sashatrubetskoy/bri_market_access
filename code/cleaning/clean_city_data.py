@@ -10,7 +10,7 @@ import pandas as pd
 from unidecode import unidecode
 from functools import reduce
 from itertools import combinations
-from geopy.distance import vincenty
+from geopy.distance import distance
 from scipy.spatial import cKDTree
 
 def remove_non_ascii(s):
@@ -115,7 +115,7 @@ for i, country in enumerate(df['Country Code'].unique()):
         counter += 1
         a_loc = (ccdf.loc[a]['Latitude'], ccdf.loc[a]['Longitude'])
         b_loc = (ccdf.loc[b]['Latitude'], ccdf.loc[b]['Longitude'])
-        d = vincenty(a_loc, b_loc).km
+        d = distance(a_loc, b_loc).km
 
         # City A is smaller, B is bigger
         if d < DIST and a not in already_merged:
@@ -158,7 +158,7 @@ def get_border_distance(row):
     lat = row['Latitude']
     nearest_pt = tree.data[tree.query([lon, lat])[1]]
     nearest_pt = (nearest_pt[1], nearest_pt[0])
-    return vincenty((lat, lon), nearest_pt).km
+    return distance((lat, lon), nearest_pt).km
 df['Distance to Border'] = df.apply(get_border_distance, axis=1)
 print('Necessary columns added.')
 

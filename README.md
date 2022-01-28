@@ -36,9 +36,17 @@ Due to the large computation time required to produce the results, the replicati
 It is important that the steps be followed in order, since each requires the results from the previous step.
 
 ## Step 0
-> Make sure you have doen this before starting the replication procedure.
+> Make sure you have done this before starting the replication procedure.
 
 First, download the raw data by [clicking here](https://drive.google.com/file/d/1I51AdsShCZbm1X9YMoMpA_aRWEuHJ0mA/). Unzip the file, then move the folder `data` into the top-level, `bri_market_access` directory.
+
+Recommended:  
+Create virtual environment and install needed packages:
+```zsh
+mkdir env
+python3 -m venv env/bri-market-access
+source env/bri-market-access/bin/activate
+```
 
 ## Step 1
 > ⏳ This step takes approximately **30 minutes** to run.
